@@ -61,7 +61,7 @@ onBeforeUnmount(() => {
 				<div class="relative">
 					<!-- <img loading="lazy" src="/images/orders/01.jpg" class="h-[960px]"> -->
 					<Swiper
-						class="w-[90%] md:w-[50%]"
+						class="w-[95%] md:w-[50%]"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					    :slides-per-view="1"
 					    :loop="true"
