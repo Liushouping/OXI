@@ -18,6 +18,8 @@
 				</svg>
 			</NuxtLink>
 		</span>
+		<div class="bg-gray-900/40 w-full h-screen absolute bottom-0 left-0 z-[9]">
+		</div>
 		<div class="w-full h-screen absolute bottom-0 left-0 z-10" 
 		style="background: linear-gradient(0deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) 30%);">
 		</div>

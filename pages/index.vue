@@ -28,7 +28,7 @@ onBeforeUnmount(() => {
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
 					<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
-						<div class="text-[14px] font-extrabold">
+						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 						    OXI Oyster & Wine Live House
 						  </span>
@@ -61,7 +61,7 @@ onBeforeUnmount(() => {
 				<div class="relative">
 					<!-- <img loading="lazy" src="/images/orders/01.jpg" class="h-[960px]"> -->
 					<Swiper
-						class="w-[95%] md:w-[50%]"
+						class="w-[100%] md:w-[50%]"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					    :slides-per-view="1"
 					    :loop="true"
@@ -158,7 +158,7 @@ onBeforeUnmount(() => {
 
 		<div class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
-				<div class="text-[14px] font-extrabold">
+				<div class="text-[14px]">
 					<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 					OXI Oyster & Wine Live House
 					</span>
@@ -181,6 +181,52 @@ onBeforeUnmount(() => {
 
 		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
 			<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTaipei&showTitle=0&showPrint=0&src=NjdhOGU3NmE3MTc0ZjhiODkxMDlmMzQ5Y2VmM2I5NWNlYjgwOWRiZjdkNzg0ZGY5Y2RhYjExZDk0YmRhYTI2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=emgtdHcudGFpd2FuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60&color=%23cc003c" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		</div>
+
+		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
+			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
+				<div class="text-[14px]">
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
+					OXI Oyster & Wine Live House
+					</span>
+				</div>
+				<h3 class="text-[48px] font-bold mb-8">THE BLOG</h3>
+				<div class="flex flex-col md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-6 justify-center items-center">
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+						<div class="flex justify-center items-center flex-col space-y-4">
+							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							</div>
+							<div class="mt-8 px-14 sm:px-0">
+								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
+								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
+							</div>
+						</div>
+					</NuxtLink>
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+						<div class="flex justify-center items-center flex-col space-y-4">
+							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							</div>
+							<div class="mt-8 px-14 sm:px-0">
+								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
+								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
+							</div>
+						</div>
+					</NuxtLink>
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+						<div class="flex justify-center items-center flex-col space-y-4">
+							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							</div>
+							<div class="mt-8 px-14 sm:px-0">
+								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
+								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
+							</div>
+						</div>
+					</NuxtLink>
+				</div>
+			</div>
+			<div>
+				
+			</div>
 		</div>
 
 		<NuxtFooter />
