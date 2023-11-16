@@ -59,7 +59,6 @@ onBeforeUnmount(() => {
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
 				<div class="relative">
-					<!-- <img loading="lazy" src="/images/orders/01.jpg" class="h-[960px]"> -->
 					<Swiper
 						class="w-[100%] md:w-[50%]"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
@@ -150,10 +149,10 @@ onBeforeUnmount(() => {
 				</div>
 			</div>
 			<span class="absolute top-96 -left-12 text-[96px] text-gray-900 opacity-10 font-bold z-0">DRINK</span>
-			<!-- <span class="absolute top-[200px] left-12 text-[96px] text-gray-900 opacity-10 font-bold z-0">OXI</span> -->
+
 			<span class="absolute top-12 right-4 text-[96px] text-gray-900 opacity-10 font-bold z-0">Taipei</span>
 			<span class="absolute top-44 right-4 text-[96px] text-gray-900 opacity-10 font-bold z-0">Music</span>
-			<span class="absolute top-72 right-4 text-[96px] text-gray-900 opacity-10 font-bold z-0">Wine</span>
+			<span class="absolute top-80 right-4 text-[96px] text-gray-900 opacity-10 font-bold z-0">Wine</span>
 		</div>
 
 		<div class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
@@ -194,7 +193,10 @@ onBeforeUnmount(() => {
 				<div class="flex flex-col md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-6 justify-center items-center">
 					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
 						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+								2023
+								</span>
 							</div>
 							<div class="mt-8 px-14 sm:px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
@@ -204,7 +206,10 @@ onBeforeUnmount(() => {
 					</NuxtLink>
 					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
 						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+								2023
+								</span>
 							</div>
 							<div class="mt-8 px-14 sm:px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
@@ -214,7 +219,10 @@ onBeforeUnmount(() => {
 					</NuxtLink>
 					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
 						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative w-[400px] h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+								2023
+								</span>
 							</div>
 							<div class="mt-8 px-14 sm:px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>

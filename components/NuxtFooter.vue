@@ -1,7 +1,7 @@
 <template>
 	<footer 
 	id="CONTACT"
-	class="w-full h-full md:h-[300px] bg-gray-800 flex justify-center items-center py-20 md:py-0">
+	class="w-full h-full md:h-[300px] bg-gray-900 flex justify-center items-center py-20 md:py-0">
 		<div class="max-w-[960px] w-full flex flex-col md:flex-row justify-center items-start px-12 md:px-4 space-y-12 md:space-y-0">
 			<div class="w-full md:w-1/3">
 				<h5 class="text-white font-bold text-[18px]">CONTACT US</h5>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</footer>
-	<div class="w-full h-[60px] bg-gray-900 flex justify-center items-center">
+	<div class="w-full h-[60px] bg-black flex justify-center items-center">
 		<div class="max-w-[960px] w-full flex flex-row justify-between items-center px-12 md:px-4">
 			<ul class="flex flex-row text-white space-x-4 items-center">
 				<li>
