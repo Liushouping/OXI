@@ -8,10 +8,10 @@
 				to="https://inline.app/booking/-Ngbrwze3vHUTAffeuYF:inline-live-3/-NgbrxCXd4dTKjDlLEsM" 
 				class="bg-orange-600 text-white text-[14px] font-bold rounded-xl px-6 py-2"
 				target="_blank">BOOK NOW</NuxtLink>
-				<NuxtLink to="/" class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2">LOOK MENU</NuxtLink>
+				<NuxtLink to="#MENU" class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2">LOOK MENU</NuxtLink>
 			</div>
 		</div>
-		<span class="w-[10px] h-[10px] absolute bottom-12 text-white animate-bounce z-20">
+		<span class="w-[10px] h-[10px] absolute bottom-28 text-white animate-bounce z-20">
 			<NuxtLink to="#ABOUT">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 				  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

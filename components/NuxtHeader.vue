@@ -33,7 +33,7 @@ onBeforeUnmount(() => {
 					<NuxtLink to="/">
 						<img src="/images/OXI-LOGO-Y.png" class="w-[60px]">
 					</NuxtLink>
-					<ul class="flex space-x-6 font-bold text-[14px]">
+					<ul class="flex space-x-4 sm:space-x-6 font-bold text-[14px]">
 						<li><NuxtLink to="#MENU">MENU</NuxtLink></li>
 						<li><NuxtLink to="#GALLERY">GALLERY</NuxtLink></li>
 						<li><NuxtLink to="#ABOUT">ABOUT</NuxtLink></li>

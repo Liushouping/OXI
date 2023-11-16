@@ -43,7 +43,7 @@ onBeforeUnmount(() => {
 			</div>
 		</div>
 
-		<div class="w-full h-[400px] bg-cover bg-center bg-top bg-fixed flex justify-center items-center" 
+		<div class="w-full h-[400px] bg-cover bg-fixed flex justify-center items-center" 
 		style="background-image: url(/images/oxi-o.jpg);">
 			<h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
 		</div>
@@ -72,64 +72,64 @@ onBeforeUnmount(() => {
 					    }"
 					  >
 					    <SwiperSlide>
-					      <img src="/images/orders/01.jpg" class="h-[840px]">
+					      <img src="/images/orders/01.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/02.jpg" class="h-[840px]">
+					      <img src="/images/orders/02.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/03.jpg" class="h-[840px]">
+					      <img src="/images/orders/03.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/04.jpg" class="h-[840px]">
+					      <img src="/images/orders/04.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/05.jpg" class="h-[840px]">
+					      <img src="/images/orders/05.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/06.jpg" class="h-[840px]">
+					      <img src="/images/orders/06.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/07.jpg" class="h-[840px]">
+					      <img src="/images/orders/07.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/08.jpg" class="h-[840px]">
+					      <img src="/images/orders/08.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/09.jpg" class="h-[840px]">
+					      <img src="/images/orders/09.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/10.jpg" class="h-[840px]">
+					      <img src="/images/orders/10.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/11.jpg" class="h-[840px]">
+					      <img src="/images/orders/11.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/12.jpg" class="h-[840px]">
+					      <img src="/images/orders/12.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/13.jpg" class="h-[840px]">
+					      <img src="/images/orders/13.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/14.jpg" class="h-[840px]">
+					      <img src="/images/orders/14.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/15.jpg" class="h-[840px]">
+					      <img src="/images/orders/15.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/16.jpg" class="h-[840px]">
+					      <img src="/images/orders/16.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/17.jpg" class="h-[840px]">
+					      <img src="/images/orders/17.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/18.jpg" class="h-[840px]">
+					      <img src="/images/orders/18.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/19.jpg" class="h-[840px]">
+					      <img src="/images/orders/19.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide>
-					      <img src="/images/orders/20.jpg" class="h-[840px]">
+					      <img src="/images/orders/20.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <div class="flex flex-row space-x-6 pt-8 justify-between">
 					    	<button class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20">
