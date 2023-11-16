@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
 		<div 
 		id="MENU"
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center">
-			<div class="w-full md:w-[960px] flex flex-col px-6 md:px-0">
+			<div class="w-full xl:w-[960px] flex flex-col px-6 md:px-0">
 				<div class="w-full mb-8">
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
@@ -229,7 +229,7 @@ onBeforeUnmount(() => {
 			    data-aos-delay="150"
 			    data-aos-offset="50"
 			    data-aos-duration="500">
-						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
+						<div class="flex justify-center items-center flex-col space-y-4">
 							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
@@ -247,7 +247,7 @@ onBeforeUnmount(() => {
 			    data-aos-delay="300"
 			    data-aos-offset="50"
 			    data-aos-duration="500">
-						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
+						<div class="flex justify-center items-center flex-col space-y-4">
 							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
@@ -265,7 +265,7 @@ onBeforeUnmount(() => {
 			    data-aos-delay="450"
 			    data-aos-offset="50"
 			    data-aos-duration="500">
-						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
+						<div class="flex justify-center items-center flex-col space-y-4">
 							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
