@@ -74,64 +74,64 @@ onBeforeUnmount(() => {
 					    	prevEl: '.prevel'
 					    }"
 					  >
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/01.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/02.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/03.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/04.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/05.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/06.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/07.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/08.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/09.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/10.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/11.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/12.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/13.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/14.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/15.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/16.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/17.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/18.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/19.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <SwiperSlide>
+					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/20.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <div class="flex flex-row space-x-6 pt-8 justify-between">
