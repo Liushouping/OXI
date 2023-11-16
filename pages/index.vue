@@ -174,16 +174,36 @@ onBeforeUnmount(() => {
 			</div>
 			<div class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
+				data-aos="fade-down"
+			  data-aos-easing="linear"
+			  data-aos-duration="500"
+			  data-aos-delay="300"
+			  data-aos-offset="50px"
 				class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
 				<div 
+				data-aos="fade-down"
+			  data-aos-easing="linear"
+			  data-aos-duration="500"
+			  data-aos-delay="400"
+			  data-aos-offset="50px"
 			  class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="flex flex-col space-y-6">
 					<div 
+					data-aos="fade-down"
+				  data-aos-easing="linear"
+				  data-aos-duration="500"
+				  data-aos-delay="500"
+				  data-aos-offset="50px"
 					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
 					<div 
+					data-aos="fade-down"
+				  data-aos-easing="linear"
+				  data-aos-duration="500"
+				  data-aos-delay="600"
+				  data-aos-offset="50px"
 					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
 				</div>
