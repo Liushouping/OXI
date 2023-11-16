@@ -141,7 +141,7 @@ onBeforeUnmount(() => {
 					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/20.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <div class="flex flex-row space-x-6 pt-8 justify-between">
+					    <div class="flex flex-row space-x-6 pt-8 justify-start">
 					    	<button class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20">
 						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900">
 								  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
