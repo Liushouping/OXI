@@ -197,29 +197,22 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
-.swiper-container-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 .background-container {
   position: relative;
   height: 400px;
   overflow: hidden;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(/images/oxi-o.jpg);
-  background-size: cover;
-  background-position: center;
+.background-container:before {
+  content: ' ';
+  position: fixed;
   z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(/images/oxi-o.jpg) center 0 no-repeat;
+  background-size: cover;
 }
 
 .content {
@@ -228,5 +221,6 @@ onBeforeUnmount(() => {
   align-items: center;
   height: 100%;
 }
+
 
 </style>
