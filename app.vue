@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 useHead({
   meta: [
     { name: 'title', content: 'OXI Oyster&Wine Live House | Taipei' },
@@ -7,8 +7,15 @@ useHead({
     { property: 'og:description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
     { property: 'og:image', content: '/images/OXI-all.jpg' }
   ],
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.webp'
+    },
+  ]
 })
-</script> -->
+</script>
 
 <template>
   <div class="tracking-[1px]">
