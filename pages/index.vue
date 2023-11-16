@@ -43,7 +43,7 @@ onBeforeUnmount(() => {
 			</div>
 		</div>
 
-		<div class="w-full h-[400px] bg-cover bg-left bg-fixed flex justify-center items-center" 
+		<div class="w-full h-[400px] bg-cover bg-center bg-top bg-fixed flex justify-center items-center" 
 		style="background-image: url(/images/oxi-o.jpg);">
 			<h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
 		</div>
