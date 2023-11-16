@@ -43,10 +43,13 @@ onBeforeUnmount(() => {
 			</div>
 		</div>
 
-		<div class="w-full h-[400px] bg-cover bg-fixed flex justify-center items-center" 
-		style="background-image: url(/images/OXI-all.jpg);">
-			<h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
+		<div class="background-container">
+		  <div class="overlay"></div>
+		  <div class="content">
+		    <h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
+		  </div>
 		</div>
+
 
 		<div 
 		id="MENU"
@@ -201,4 +204,29 @@ onBeforeUnmount(() => {
   align-items: center;
   height: 100vh;
 }
+.background-container {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/oxi-o.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 </style>
