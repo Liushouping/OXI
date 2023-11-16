@@ -2,13 +2,25 @@
 	<div class="bg-gray-900 relative w-full h-screen bg-cover flex justify-center items-center" 
 	style="background-image: url(/images/OXI-all.jpg);">
 		<div class="text-white z-20">
-			<h1 class="text-[24px] sm:text-[32px] md:text-[48px] font-bold">OXI Oyster & Wine Live House</h1>
+			<h1 
+			class="text-[24px] sm:text-[32px] md:text-[48px] font-bold" 
+			data-aos="zoom-in"
+			data-aos-offset="300"
+     		data-aos-easing="ease-in-sine">OXI Oyster & Wine Live House</h1>
 			<div class="flex justify-center space-x-4 mt-8">
 				<NuxtLink 
 				to="https://inline.app/booking/-Ngbrwze3vHUTAffeuYF:inline-live-3/-NgbrxCXd4dTKjDlLEsM" 
 				class="bg-orange-600 text-white text-[14px] font-bold rounded-xl px-6 py-2"
-				target="_blank">BOOK NOW</NuxtLink>
-				<NuxtLink to="#MENU" class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2">LOOK MENU</NuxtLink>
+				target="_blank"
+				data-aos="fade-right"
+			    data-aos-offset="300"
+			    data-aos-easing="ease-in-sine">BOOK NOW</NuxtLink>
+				<NuxtLink 
+				to="#MENU" 
+				class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2"
+				data-aos="fade-left"
+			    data-aos-offset="300"
+			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
 			</div>
 		</div>
 		<span class="w-[10px] h-[10px] absolute bottom-28 text-white animate-bounce z-20">

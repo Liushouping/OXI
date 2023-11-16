@@ -27,7 +27,11 @@ onBeforeUnmount(() => {
 		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center">
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
-					<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
+					<div 
+					data-aos="fade-down"
+			    data-aos-easing="linear"
+			    data-aos-duration="300"
+					class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 						    OXI Oyster & Wine Live House
@@ -37,7 +41,11 @@ onBeforeUnmount(() => {
 						<p class="mt-6 text-[14px] font-light text-center">Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</p>
 					</div>
 				</div>
-				<div class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
+				<div 
+				data-aos="zoom-in"
+			  data-aos-easing="linear"
+			  data-aos-duration="300"
+				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
 					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[400px] rounded-xl">
 				</div>
 			</div>
@@ -60,7 +68,7 @@ onBeforeUnmount(() => {
 				</div>
 				<div class="relative">
 					<Swiper
-						class="w-[100%] md:w-[50%]"
+						class="w-[100%] md:w-[50%] px-20 overflow-auto"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					    :slides-per-view="1"
 					    :loop="true"
@@ -165,14 +173,38 @@ onBeforeUnmount(() => {
 				<h3 class="text-[48px] font-bold mb-8">Life</h3>
 			</div>
 			<div class="flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-8">
-				<div class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
+				<div 
+				data-aos="fade-down"
+			  data-aos-easing="linear"
+			  data-aos-delay="300"
+			  data-aos-offset="50"
+			  data-aos-duration="500"
+				class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
-				<div class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+				<div 
+				data-aos="fade-down"
+			  data-aos-easing="linear"
+			  data-aos-delay="450"
+			  data-aos-offset="50"
+			  data-aos-duration="500"
+			  class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="flex flex-col space-y-6">
-					<div class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
+					<div 
+					data-aos="fade-down"
+				  data-aos-easing="linear"
+				  data-aos-delay="700"
+				  data-aos-offset="50"
+				  data-aos-duration="500"
+					class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
-					<div class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
+					<div 
+					data-aos="fade-down"
+				  data-aos-easing="linear"
+				  data-aos-delay="750"
+				  data-aos-offset="50"
+				  data-aos-duration="500"
+					class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
 				</div>
 			</div>
@@ -191,7 +223,12 @@ onBeforeUnmount(() => {
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">THE BLOG</h3>
 				<div class="flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center">
-					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
+					data-aos="fade-down"
+			    data-aos-easing="linear"
+			    data-aos-delay="150"
+			    data-aos-offset="50"
+			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
 							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
@@ -204,7 +241,12 @@ onBeforeUnmount(() => {
 							</div>
 						</div>
 					</NuxtLink>
-					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
+					data-aos="fade-down"
+			    data-aos-easing="linear"
+			    data-aos-delay="300"
+			    data-aos-offset="50"
+			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
 							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
@@ -217,7 +259,12 @@ onBeforeUnmount(() => {
 							</div>
 						</div>
 					</NuxtLink>
-					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk">
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
+					data-aos="fade-down"
+			    data-aos-easing="linear"
+			    data-aos-delay="450"
+			    data-aos-offset="50"
+			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
 							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
