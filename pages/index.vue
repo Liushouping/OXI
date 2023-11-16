@@ -45,8 +45,8 @@ onBeforeUnmount(() => {
 				data-aos="zoom-in"
 			  data-aos-easing="linear"
 			  data-aos-duration="500"
-				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
-					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[400px] rounded-xl">
+				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
+					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
 				</div>
 			</div>
 		</div>
@@ -172,38 +172,18 @@ onBeforeUnmount(() => {
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">Life</h3>
 			</div>
-			<div class="flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-8">
+			<div class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				data-aos="fade-down"
-			  data-aos-easing="linear"
-			  data-aos-delay="300"
-			  data-aos-offset="50"
-			  data-aos-duration="500"
 				class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
 				<div 
-				data-aos="fade-down"
-			  data-aos-easing="linear"
-			  data-aos-delay="450"
-			  data-aos-offset="50"
-			  data-aos-duration="500"
 			  class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="flex flex-col space-y-6">
 					<div 
-					data-aos="fade-down"
-				  data-aos-easing="linear"
-				  data-aos-delay="700"
-				  data-aos-offset="50"
-				  data-aos-duration="500"
 					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
 					<div 
-					data-aos="fade-down"
-				  data-aos-easing="linear"
-				  data-aos-delay="750"
-				  data-aos-offset="50"
-				  data-aos-duration="500"
 					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
 				</div>
