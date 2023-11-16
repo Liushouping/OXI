@@ -1,5 +1,5 @@
 <template>
-	<div class="relative w-full h-screen bg-cover flex justify-center items-center" 
+	<div class="bg-gray-900 relative w-full h-screen bg-cover flex justify-center items-center" 
 	style="background-image: url(/images/OXI-all.jpg);">
 		<div class="text-white z-20">
 			<h1 class="text-[24px] sm:text-[32px] md:text-[48px] font-bold">OXI Oyster & Wine Live House</h1>
