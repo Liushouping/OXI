@@ -30,7 +30,7 @@ onBeforeUnmount(() => {
 					<div 
 					data-aos="fade-down"
 			    data-aos-easing="linear"
-			    data-aos-duration="300"
+			    data-aos-duration="500"
 					class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
@@ -44,7 +44,7 @@ onBeforeUnmount(() => {
 				<div 
 				data-aos="zoom-in"
 			  data-aos-easing="linear"
-			  data-aos-duration="300"
+			  data-aos-duration="500"
 				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
 					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[400px] rounded-xl">
 				</div>
