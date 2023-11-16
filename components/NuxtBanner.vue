@@ -13,13 +13,11 @@
 				class="bg-orange-600 text-white text-[14px] font-bold rounded-xl px-6 py-2"
 				target="_blank"
 				data-aos="fade-right"
-			    data-aos-offset="300"
 			    data-aos-easing="ease-in-sine">BOOK NOW</NuxtLink>
 				<NuxtLink 
 				to="#MENU" 
 				class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2"
 				data-aos="fade-left"
-			    data-aos-offset="300"
 			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
 			</div>
 		</div>
