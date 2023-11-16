@@ -38,13 +38,13 @@ onBeforeUnmount(() => {
 					</div>
 				</div>
 				<div class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
-					<img src="/images/OXI-all.jpg" class="w-[400px] rounded-xl">
+					<img src="/images/OXI-door.jpg" class="w-[400px] rounded-xl">
 				</div>
 			</div>
 		</div>
 
 		<div class="w-full h-[400px] bg-cover bg-fixed flex justify-center items-center" 
-		style="background-image: url(/images/oxi-o.jpg);">
+		style="background-image: url(/images/OXI-all.jpg);">
 			<h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
 		</div>
 
