@@ -198,7 +198,7 @@ onBeforeUnmount(() => {
 								2023
 								</span>
 							</div>
-							<div class="mt-8 px-14 sm:px-0">
+							<div class="mt-8 px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
 								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
 							</div>
@@ -211,7 +211,7 @@ onBeforeUnmount(() => {
 								2023
 								</span>
 							</div>
-							<div class="mt-8 px-14 sm:px-0">
+							<div class="mt-8 px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
 								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
 							</div>
@@ -224,7 +224,7 @@ onBeforeUnmount(() => {
 								2023
 								</span>
 							</div>
-							<div class="mt-8 px-14 sm:px-0">
+							<div class="mt-8 px-0">
 								<h5 class="text-[21px]">BEST PLACES FOR WINE</h5>
 								<p class="text-[14px] font-light mt-4">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
 							</div>
