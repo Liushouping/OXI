@@ -179,7 +179,7 @@ onBeforeUnmount(() => {
 			  data-aos-delay="300"
 			  data-aos-offset="50"
 			  data-aos-duration="500"
-				class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
+				class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
 				<div 
 				data-aos="fade-down"
@@ -187,7 +187,7 @@ onBeforeUnmount(() => {
 			  data-aos-delay="450"
 			  data-aos-offset="50"
 			  data-aos-duration="500"
-			  class="w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+			  class="w-[90%] sm:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="flex flex-col space-y-6">
 					<div 
@@ -196,7 +196,7 @@ onBeforeUnmount(() => {
 				  data-aos-delay="700"
 				  data-aos-offset="50"
 				  data-aos-duration="500"
-					class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
+					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
 					<div 
 					data-aos="fade-down"
@@ -204,7 +204,7 @@ onBeforeUnmount(() => {
 				  data-aos-delay="750"
 				  data-aos-offset="50"
 				  data-aos-duration="500"
-					class="w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
+					class="w-[90%] sm:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
 				</div>
 			</div>
@@ -230,7 +230,7 @@ onBeforeUnmount(() => {
 			    data-aos-offset="50"
 			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
-							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
 								</span>
@@ -248,7 +248,7 @@ onBeforeUnmount(() => {
 			    data-aos-offset="50"
 			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
-							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
 								</span>
@@ -266,7 +266,7 @@ onBeforeUnmount(() => {
 			    data-aos-offset="50"
 			    data-aos-duration="500">
 						<div class="flex justify-center items-center flex-col space-y-4 px-4 lg:px-2">
-							<div class="relative min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								2023
 								</span>
