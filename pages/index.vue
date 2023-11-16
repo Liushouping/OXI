@@ -38,7 +38,7 @@ onBeforeUnmount(() => {
 					</div>
 				</div>
 				<div class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
-					<img src="/images/OXI-door.jpg" class="w-[400px] rounded-xl">
+					<img src="/images/OXI-all.jpg" class="w-[400px] rounded-xl">
 				</div>
 			</div>
 		</div>
