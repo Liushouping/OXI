@@ -210,9 +210,9 @@ onBeforeUnmount(() => {
 			</div>
 		</div>
 
-<!-- 		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
+		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
 			<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTaipei&showTitle=0&showPrint=0&src=NjdhOGU3NmE3MTc0ZjhiODkxMDlmMzQ5Y2VmM2I5NWNlYjgwOWRiZjdkNzg0ZGY5Y2RhYjExZDk0YmRhYTI2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=emgtdHcudGFpd2FuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60&color=%23cc003c" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-		</div> -->
+		</div>
 
 		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
