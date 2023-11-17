@@ -3,7 +3,7 @@
 	style="background-image: url(/images/OXI-all.jpg);">
 		<div class="text-white z-20">
 			<h1 
-			class="text-[21px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-bold font-anton" 
+			class="text-[21px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-anton" 
 			data-aos="zoom-in"
 			data-aos-offset="300"
      		data-aos-easing="ease-in-sine">OXI Oyster & Wine Live House</h1>
