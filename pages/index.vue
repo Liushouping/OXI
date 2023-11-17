@@ -2,7 +2,7 @@
 const GoTop = ref(false);
 
 const GoScroll = () => {
-    GoTop.value = scrollY < 120;
+    GoTop.value = scrollY > 240;
 };
 
 function Top() {
@@ -141,7 +141,7 @@ onBeforeUnmount(() => {
 					    <SwiperSlide class="w-full">
 					      <img loading="lazy" src="/images/orders/20.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
-					    <div class="flex flex-row space-x-6 pt-8 justify-start">
+					    <div class="flex flex-row space-x-4 pt-8 justify-start">
 					    	<button 
 					    	class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
 						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -150,10 +150,10 @@ onBeforeUnmount(() => {
 						    </button>
 						    <button 
 						    class="prevel h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-								  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-								</svg>
-							</button>
+							    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+									</svg>
+								</button>
 					    </div>
 					  </Swiper>
 				</div>
@@ -165,7 +165,9 @@ onBeforeUnmount(() => {
 			<span class="absolute top-80 right-4 text-[96px] text-gray-900 opacity-10 font-bold z-0">Wine</span>
 		</div>
 
-		<div class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
+		<div 
+		id="LIVE"
+		class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 				<div class="text-[14px]">
 					<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
@@ -310,8 +312,8 @@ onBeforeUnmount(() => {
 
 		<div 
 		@click="Top"
-		:class="{ 'opacity-0': GoTop }"
-		class="fixed bottom-8 right-4 w-12 h-12 z-40 bg-gray-900 rounded-full flex justify-center items-center transition-all duration-500 cursor-pointer">
+		:class="{ 'opacity-100': GoTop }"
+		class="fixed bottom-8 right-4 w-12 h-12 z-40 bg-gray-900 rounded-full flex justify-center items-center transition-all duration-500 cursor-pointer opacity-0">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-50">
 			  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
 			</svg>
