@@ -23,5 +23,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: ['~/plugins/lazy-load.ts'],
+  // plugins: ['~/plugins/lazy-load.ts'],
 })

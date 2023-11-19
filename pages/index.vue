@@ -24,7 +24,6 @@ onBeforeUnmount(() => {
 
 		<div 
 		id="ABOUT"
-		v-lazy-container="{ selector: 'img' }"
 		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center">
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
@@ -47,7 +46,7 @@ onBeforeUnmount(() => {
 			  data-aos-easing="linear"
 			  data-aos-duration="500"
 				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
-					<img data-src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
+					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
 				</div>
 			</div>
 		</div>
@@ -168,7 +167,6 @@ onBeforeUnmount(() => {
 
 		<div 
 		id="LIVE"
-		v-lazy-container="{ selector: 'img' }"
 		class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 				<div class="text-[14px]">
@@ -181,7 +179,7 @@ onBeforeUnmount(() => {
 			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
 				class="w-[90%] md:w-full h-full flex justify-center items-center">
-					<img data-src="/images/live-01.jpeg" class="rounded-2xl">
+					<img loading="lazy" src="/images/live-01.jpeg" class="rounded-2xl">
 				</div>
 			</div>
 		</div>
