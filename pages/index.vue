@@ -24,6 +24,7 @@ onBeforeUnmount(() => {
 
 		<div 
 		id="ABOUT"
+		v-lazy-container="{ selector: 'img' }"
 		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center">
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
@@ -38,7 +39,7 @@ onBeforeUnmount(() => {
 						  </span>
 						</div>
 						<h3 class="text-[48px] font-bold">WELCOME</h3>
-						<p class="mt-6 text-[14px] font-light text-center">Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</p>
+						<p class="mt-6 text-[14px] font-light text-center mb-8 lg:mb-0">Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</p>
 					</div>
 				</div>
 				<div 
@@ -46,7 +47,7 @@ onBeforeUnmount(() => {
 			  data-aos-easing="linear"
 			  data-aos-duration="500"
 				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
-					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
+					<img data-src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
 				</div>
 			</div>
 		</div>
@@ -167,6 +168,7 @@ onBeforeUnmount(() => {
 
 		<div 
 		id="LIVE"
+		v-lazy-container="{ selector: 'img' }"
 		class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 				<div class="text-[14px]">
@@ -179,7 +181,7 @@ onBeforeUnmount(() => {
 			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
 				class="w-[90%] md:w-full h-full flex justify-center items-center">
-					<img src="/images/live-01.jpeg" class="rounded-2xl">
+					<img data-src="/images/live-01.jpeg" class="rounded-2xl">
 				</div>
 			</div>
 		</div>
@@ -193,7 +195,9 @@ onBeforeUnmount(() => {
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">Life</h3>
 			</div>
-			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
+			<div 
+
+			class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
 				data-aos="fade-down"
 			  data-aos-easing="linear"
@@ -230,10 +234,6 @@ onBeforeUnmount(() => {
 				</div>
 			</div>
 		</div>
-
-<!-- 		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
-			<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTaipei&showTitle=0&showPrint=0&src=NjdhOGU3NmE3MTc0ZjhiODkxMDlmMzQ5Y2VmM2I5NWNlYjgwOWRiZjdkNzg0ZGY5Y2RhYjExZDk0YmRhYTI2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=emgtdHcudGFpd2FuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60&color=%23cc003c" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-		</div> -->
 
 		<div class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
 			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">

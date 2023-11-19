@@ -20,7 +20,7 @@ onMounted(() => {
     window.addEventListener('scroll', handleScroll);
 });
 onBeforeUnmount(() => {
-	window.removeEventListener('scroll', handleScroll);
+		window.removeEventListener('scroll', handleScroll);
 });
 </script>
 

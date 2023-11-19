@@ -20,6 +20,9 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "nuxt-swiper": "^1.2.2"
+    "i": "^0.3.7",
+    "npm": "^10.2.4",
+    "nuxt-swiper": "^1.2.2",
+    "vue-lazyload": "^3.0.0"
   }
 }
