@@ -2,16 +2,16 @@
 const GoTop = ref(false);
 
 const GoScroll = () => {
-    GoTop.value = scrollY > 240;
+  GoTop.value = scrollY > 240;
 };
 
 function Top() {
 	document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 onMounted(() => {
-    window.addEventListener('scroll', GoScroll);
+  window.addEventListener('scroll', GoScroll);
 });
 onBeforeUnmount(() => {
 	window.removeEventListener('scroll', GoScroll);
@@ -28,9 +28,7 @@ onBeforeUnmount(() => {
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
 					<div 
-					data-aos="fade-down"
-			    data-aos-easing="linear"
-			    data-aos-duration="500"
+					data-aos="fade-right"
 					class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
@@ -42,9 +40,8 @@ onBeforeUnmount(() => {
 					</div>
 				</div>
 				<div 
-				data-aos="zoom-in"
-			  data-aos-easing="linear"
-			  data-aos-duration="500"
+				data-aos="fade-left"
+        data-aos-delay="150"
 				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
 					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
 				</div>
@@ -178,6 +175,8 @@ onBeforeUnmount(() => {
 			</div>
 			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
+				data-aos="fade-up"
+        data-aos-delay="150"
 				class="w-[90%] md:w-full h-full flex justify-center items-center">
 					<img loading="lazy" src="/images/live-01.jpeg" class="rounded-2xl">
 				</div>
@@ -194,38 +193,35 @@ onBeforeUnmount(() => {
 				<h3 class="text-[48px] font-bold mb-8">Life</h3>
 			</div>
 			<div 
-
 			class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				data-aos="fade-down"
+				data-aos="fade-up"
 			  data-aos-easing="linear"
-			  data-aos-duration="500"
+			  data-aos-duration="1000"
 			  data-aos-delay="300"
-			  data-aos-offset="50px"
 				class="w-[90%] xl:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
 				<div 
-				data-aos="fade-down"
+				data-aos="fade-up"
 			  data-aos-easing="linear"
-			  data-aos-duration="500"
-			  data-aos-delay="400"
-			  data-aos-offset="50px"
+			  data-aos-duration="1000"
+			  data-aos-delay="600"
 			  class="w-[90%] xl:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="w-full xl:w-auto flex flex-col space-y-6 justify-center items-center">
 					<div 
-					data-aos="fade-down"
+					data-aos="fade-up"
 				  data-aos-easing="linear"
-				  data-aos-duration="500"
-				  data-aos-delay="500"
+				  data-aos-duration="1000"
+				  data-aos-delay="900"
 				  data-aos-offset="50px"
 					class="w-[90%] xl:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
 					<div 
-					data-aos="fade-down"
+					data-aos="fade-up"
 				  data-aos-easing="linear"
-				  data-aos-duration="500"
-				  data-aos-delay="600"
+				  data-aos-duration="1000"
+				  data-aos-delay="1200"
 				  data-aos-offset="50px"
 					class="w-[90%] xl:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
