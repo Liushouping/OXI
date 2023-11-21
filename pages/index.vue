@@ -63,7 +63,9 @@ onBeforeUnmount(() => {
 				<div class="w-full mb-8">
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
-				<div class="relative">
+				<div 
+				data-aos="fade-up"
+				class="relative">
 					<Swiper
 						class="w-[100%] md:w-[50%] px-20 overflow-auto"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
