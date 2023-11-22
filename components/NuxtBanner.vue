@@ -21,7 +21,7 @@
 			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
 			</div>
 		</div>
-		<span data-aos="zoom-in" data-aos-duration="1000" class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
+		<span class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
 			<NuxtLink 
 			to="#ABOUT">
 <!-- 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
