@@ -27,7 +27,7 @@
 <!-- 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 				  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 				</svg> -->
-				<div class="border-[2px] h-[24px] px-[12px] py-[21px] rounded-2xl flex justify-center items-start">
+				<div class="relative border-[2px] h-[48px] px-[12px] rounded-2xl flex justify-center items-center">
 				    <span class="hrheight"></span>
 				</div>
 			</NuxtLink>
@@ -54,9 +54,11 @@
     @keyframes gg {
         0% {
             height: 0px;
+            top:20%;
         }
         100% {
             height: 20px; 
+            top:30%;
         }
     }
 </style>
