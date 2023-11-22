@@ -24,7 +24,7 @@ onBeforeUnmount(() => {
 
 		<div 
 		id="ABOUT"
-		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center">
+		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center overflow-hidden">
 			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
 				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
 					<div 
