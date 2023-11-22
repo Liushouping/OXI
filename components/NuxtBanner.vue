@@ -18,7 +18,7 @@
 				to="#MENU" 
 				class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2 hover:bg-orange-500 transition-all"
 				data-aos="fade-left"
-			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
+			    data-aos-easing="ease-in-sine">LOOK MENU1</NuxtLink>
 			</div>
 		</div>
 		<span data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000" class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
