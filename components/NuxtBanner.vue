@@ -3,7 +3,7 @@
 	style="background-image: url(/images/OXI-all.jpg);">
 		<div class="text-white z-20">
 			<h1 
-			class="text-[21px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-anton" 
+			class="text-[24px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-anton" 
 			data-aos="zoom-in"
 			data-aos-offset="300"
      		data-aos-easing="ease-in-sine">OXI Oyster & Wine Live House</h1>
@@ -46,12 +46,12 @@
         width: 2px;
         height: 0px;
         background: white;
-        animation-name: gg;
+        animation-name: TopToBottom;
         animation-iteration-count: infinite;
         animation-duration: 2s;
     }
 
-    @keyframes gg {
+    @keyframes TopToBottom {
         0% {
             height: 0px;
             top:20%;
