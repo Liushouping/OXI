@@ -3,7 +3,9 @@
 	id="CONTACT"
 	class="w-full h-full md:h-[300px] bg-gray-900 flex justify-center items-center py-20 md:py-0">
 		<div class="max-w-[960px] w-full flex flex-col md:flex-row justify-center items-start px-12 md:px-4 space-y-12 md:space-y-0">
-			<div class="w-full md:w-1/3">
+			<div 
+			data-aos="fade-up"
+			class="w-full md:w-1/3">
 				<h5 class="text-white font-bold text-[18px]">CONTACT US</h5>
 				<ul class="mt-8 text-white font-medium text-[14px] space-y-2">
 					<li class="flex flex-row space-x-2 items-center text-gray-400">
@@ -29,7 +31,10 @@
 					<a href="mailto:oxi.taipei@gmail.com">oxi.taipei@gmail.com</a></li>
 				</ul>
 			</div>
-			<div class="w-full md:w-1/3">
+			<div 
+			data-aos="fade-up"
+			data-aos-delay="150"
+			class="w-full md:w-1/3">
 				<h5 class="text-white font-bold text-[18px]">OPENING TIMES</h5>
 				<ul class="mt-8 text-gray-400 font-medium text-[14px] space-y-2">
 					<li>午餐時段</li>
@@ -38,7 +43,10 @@
 					<li>17:30-01:00 (Last Order 21:00)</li>
 				</ul>
 			</div>
-			<div class="w-full md:w-1/3">
+			<div 
+			data-aos="fade-up"
+			data-aos-delay="300"
+			class="w-full md:w-1/3">
 				<h5 class="text-white font-bold text-[18px]">ABOUT US</h5>
 				<ul class="mt-8 text-gray-400 font-medium text-[14px] space-y-2">
 					<li>Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</li>

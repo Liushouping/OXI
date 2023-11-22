@@ -50,7 +50,9 @@ onBeforeUnmount(() => {
 
 		<div class="background-container">
 		  <div class="overlay"></div>
-		  <div class="content">
+		  <div 
+		  data-aos="fade-up"
+		  class="content">
 		    <h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
 		  </div>
 		</div>
