@@ -13,7 +13,8 @@
 				class="bg-orange-600 text-white text-[14px] font-bold rounded-xl px-6 py-2 hover:bg-orange-700 transition-all"
 				target="_blank"
 				data-aos="fade-right"
-			    data-aos-easing="ease-in-sine">BOOK NOW</NuxtLink>
+			    data-aos-easing="ease-in-sine">BOOK NOW
+				</NuxtLink>
 				<NuxtLink 
 				to="#MENU" 
 				class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2 hover:bg-orange-500 transition-all"

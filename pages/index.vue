@@ -69,7 +69,7 @@ onBeforeUnmount(() => {
 				data-aos="fade-up"
 				class="relative px-6 2xl:px-0">
 					<Swiper
-						class="w-[100%] md:w-[50%] px-20 overflow-auto"
+						class="w-[100%] md:w-[50%] px-20 overflow-auto z-30"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					    :slides-per-view="1"
 					    :loop="true"
