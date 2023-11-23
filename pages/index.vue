@@ -61,13 +61,13 @@ onBeforeUnmount(() => {
 		<div 
 		id="MENU"
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center">
-			<div class="w-full xl:w-[960px] flex flex-col px-6 md:px-0">
-				<div class="w-full mb-8">
+			<div class="w-full xl:w-[960px] flex flex-col">
+				<div class="w-full mb-8 px-4 xl:px-0">
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
 				<div 
 				data-aos="fade-up"
-				class="relative">
+				class="relative px-6 2xl:px-0">
 					<Swiper
 						class="w-[100%] md:w-[50%] px-20 overflow-auto"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
