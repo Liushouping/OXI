@@ -11,15 +11,15 @@
 		
 		<div 
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-start">
-			<div class="w-1/6 h-[200px] sticky top-36 flex flex-col justify-center items-end pl-4 pr-2 sm:px-4">
+			<div class="w-1/6 h-[200px] sticky top-36 flex flex-col gap-2 justify-center items-end pl-4 pr-2 sm:px-4">
 				<SocialShare
 				    v-for="network in ['facebook', 'twitter', 'whatsapp']"
 				    :key="network"
 				    :network="network"
 				    :styled="false"
 				    :label="false"
-				    url="https://oxi-web.pages.dev/news"
-				    class="p-4 rounded-none flex space-y-2"
+				    url="https://oxi.taipei/news"
+				    class="p-4 rounded-none"
 				/>
 			</div>
 			<div class="w-full md:w-[760px] flex flex-col z-10">
