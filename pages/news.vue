@@ -18,6 +18,7 @@
 				    :network="network"
 				    :styled="false"
 				    :label="false"
+				    url="https://oxi-web.pages.dev/news"
 				    class="p-4 rounded-none flex space-y-2"
 				/>
 			</div>
