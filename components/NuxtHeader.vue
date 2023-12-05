@@ -33,7 +33,7 @@ onBeforeUnmount(() => {
 			:style="{ height: `${headerHeight}px`, backgroundColor: headerBackgroundColor, color: headerTextColor }">
 				<div class="max-w-[960px] w-full flex flex-row justify-between items-center">
 					<NuxtLink to="/">
-						<img src="/images/OXI-LOGO-Y.png" data-aos="fade-right" class="w-[60px]">
+						<img src="~/assets/images/OXI-LOGO-Y.png" data-aos="fade-right" class="w-[60px]">
 					</NuxtLink>
 					<div 
 					class="flex md:hidden cursor-pointer"
@@ -45,10 +45,10 @@ onBeforeUnmount(() => {
 					<ul 
 					data-aos="fade-down"
 					class="hidden md:flex space-x-2 sm:space-x-6 font-bold text-[14px]">
-						<li><NuxtLink to="#MENU">MENU</NuxtLink></li>
-						<li><NuxtLink to="#LIVE">LIVE</NuxtLink></li>
-						<li><NuxtLink to="#ABOUT">ABOUT</NuxtLink></li>
-						<!-- <li><NuxtLink to="#BLOG">BLOG</NuxtLink></li> -->
+						<li><NuxtLink to="/">HOME</NuxtLink></li>
+						<li><NuxtLink to="/news">NEWS</NuxtLink></li>
+						<li><NuxtLink to="/menu">MENU</NuxtLink></li>
+						<li><NuxtLink to="/live">LIVE</NuxtLink></li>
 						<li><NuxtLink to="#CONTACT">CONTACT</NuxtLink></li>
 					</ul>
 					<ul 
@@ -74,11 +74,12 @@ onBeforeUnmount(() => {
 		      </button>
 		      <div class="flex justify-center items-center">
 		      	<ul class="flex flex-col justify-center items-center text-white md:hidden space-y-6 font-bold text-[14px]">
-					<li><NuxtLink to="#MENU" @click="menu =! menu">MENU</NuxtLink></li>
-					<li><NuxtLink to="#LIVE" @click="menu =! menu">LIVE</NuxtLink></li>
-					<li><NuxtLink to="#ABOUT" @click="menu =! menu">ABOUT</NuxtLink></li>
-					<li><NuxtLink to="#CONTACT" @click="menu =! menu">CONTACT</NuxtLink></li>
-				</ul>
+		      		<li><NuxtLink to="/" @click="menu =! menu">HOME</NuxtLink></li>
+							<li><NuxtLink to="/news" @click="menu =! menu">NEWS</NuxtLink></li>
+							<li><NuxtLink to="/menu" @click="menu =! menu">MENU</NuxtLink></li>
+							<li><NuxtLink to="/live" @click="menu =! menu">LIVE</NuxtLink></li>
+							<li><NuxtLink to="#CONTACT" @click="menu =! menu">CONTACT</NuxtLink></li>
+						</ul>
 		      </div>
 		    </div>
 		</Transition>

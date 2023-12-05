@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
+    // pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -13,11 +14,26 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '/images/OXI-all.jpg' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
-      ]
-    }
+        { 
+          rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
+        },
+        // {
+        //   rel: "stylesheet",
+        //   href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
+        // },
+      ],
+      // script: [
+      //   {
+      //     src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
+      //     type: "text/javascript",
+      //   },
+      // ],
+    },
   },
-  modules: ['nuxt-swiper'],
+  modules: [
+    'nuxt-swiper',
+    '@stefanobartoletti/nuxt-social-share'
+  ],
   swiper: {
   },
   css: ['~/assets/css/main.css'],

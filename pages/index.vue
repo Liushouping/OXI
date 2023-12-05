@@ -1,22 +1,7 @@
 <script setup>
-const GoTop = ref(false);
 
-const GoScroll = () => {
-  GoTop.value = scrollY > 240;
-};
-
-function Top() {
-	document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-onMounted(() => {
-  window.addEventListener('scroll', GoScroll);
-});
-onBeforeUnmount(() => {
-	window.removeEventListener('scroll', GoScroll);
-});
 </script>
+
 <template>
 	<div>
 		<NuxtHeader />
@@ -43,7 +28,7 @@ onBeforeUnmount(() => {
 				data-aos="fade-left"
         data-aos-delay="150"
 				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
-					<img loading="lazy" src="/images/OXI-door.jpg" class="w-[90%] rounded-xl">
+					<img loading="lazy" src="~/assets/images/OXI-door.jpg" class="w-[90%] rounded-xl">
 				</div>
 			</div>
 		</div>
@@ -61,7 +46,7 @@ onBeforeUnmount(() => {
 		<div 
 		id="MENU"
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center">
-			<div class="w-full xl:w-[960px] flex flex-col">
+			<div class="w-full xl:w-[960px] flex flex-col z-10">
 				<div class="w-full mb-8 px-4 xl:px-0">
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
@@ -69,7 +54,7 @@ onBeforeUnmount(() => {
 				data-aos="fade-up"
 				class="relative px-6 2xl:px-0">
 					<Swiper
-						class="w-[100%] md:w-[50%] px-20 overflow-auto z-30"
+						class="w-[100%] md:w-[50%] px-20 overflow-auto"
 					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					    :slides-per-view="1"
 					    :loop="true"
@@ -83,64 +68,64 @@ onBeforeUnmount(() => {
 					    }"
 					  >
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/01.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/01.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/02.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/02.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/03.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/03.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/04.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/04.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/05.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/05.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/06.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/06.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/07.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/07.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/08.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/08.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/09.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/09.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/10.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/10.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/11.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/11.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/12.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/12.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/13.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/13.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/14.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/14.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/15.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/15.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/16.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/16.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/17.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/17.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/18.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/18.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/19.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/19.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="/images/orders/20.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/20.jpg" class="max-h-[840px] h-full">
 					    </SwiperSlide>
 					    <div class="flex flex-row space-x-4 pt-8 justify-start">
 					    	<button 
@@ -182,7 +167,7 @@ onBeforeUnmount(() => {
 				data-aos="fade-up"
         data-aos-delay="150"
 				class="w-[90%] md:w-full h-full flex justify-center items-center">
-					<img loading="lazy" src="/images/live-01.jpeg" class="rounded-2xl">
+					<img loading="lazy" src="~/assets/images/live-01.jpeg" class="rounded-2xl">
 				</div>
 			</div>
 		</div>
@@ -234,8 +219,9 @@ onBeforeUnmount(() => {
 		</div>
 
 		<div 
-		class="bg-gray-50 w-full flex justify-center items-center py-24 px-4">
-			<div class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
+		class="bg-gray-50 w-full h-full flex justify-center items-center py-24 px-4">
+			<div 
+			class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 				<div class="text-[14px]">
 					<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 					OXI Oyster & Wine Live House
@@ -243,19 +229,37 @@ onBeforeUnmount(() => {
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">THE BLOG</h3>
 				<div 
+				data-aos="fade-up" 
+				data-aos-duration="8000"
+				data-aos-delay="1000"
 				class="flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center">
-					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
+					<NuxtLink 
+					to="https://lizzzstyle.tw/oxi-oysterwine-live-house/" target="_blenk"
 					class="group">
 						<div 
 						class="flex justify-center items-center flex-col space-y-4">
-							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
-								2023
+								文章推薦
 								</span>
 							</div>
 							<div class="mt-8 px-0">
-								<h5 class="text-[21px] group-hover:text-red-500 transition-all">BEST PLACES FOR WINE</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
+								<h5 class="text-[21px] group-hover:text-red-500 transition-all">信義區餐酒館推薦！推海鮮義大利麵、麻辣水煮魚 週末假日有live band演出超適合約會聚餐</h5>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">一進去Oxi oyster & wine live house ，就可以感受到週遭挺熱鬧的氛圍～入口處會看到Oxi oyster & wine live house 的招牌，往右手邊處走去可以找到櫃檯報到處。</p>
+							</div>
+						</div>
+					</NuxtLink>
+					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiQqpmf2OOCAxURdfUHHWY2DJUQFnoECAgQAQ&url=https%3A%2F%2Fbigshark.tw%2Foxi-oyster-wine-live-house%2F&usg=AOvVaw2dlANldWCocG2BjzqXzM4O&opi=89978449" target="_blenk"
+					class="group">
+						<div class="flex justify-center items-center flex-col space-y-4">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
+								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+								文章推薦
+								</span>
+							</div>
+							<div class="mt-8 px-0">
+								<h5 class="text-[21px] group-hover:text-red-500 transition-all">【台北美食】oxi oyster &wine live house，質感現場演唱餐酒館，信義美食推薦（菜單）</h5>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">oxi oyster & wine live house位於台北信義區的Att valley廣場B1內，Att valley廣場內有有一些美食餐廳，旁邊就有知名的刁民酸菜魚。oxi oyster & wine live house 的氣氛超棒</p>
 							</div>
 						</div>
 					</NuxtLink>
@@ -264,26 +268,12 @@ onBeforeUnmount(() => {
 						<div class="flex justify-center items-center flex-col space-y-4">
 							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
-								2023
+								文章推薦
 								</span>
 							</div>
 							<div class="mt-8 px-0">
-								<h5 class="text-[21px] group-hover:text-red-500 transition-all">BEST PLACES FOR WINE</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
-							</div>
-						</div>
-					</NuxtLink>
-					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
-					class="group">
-						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
-								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
-								2023
-								</span>
-							</div>
-							<div class="mt-8 px-0">
-								<h5 class="text-[21px] group-hover:text-red-500 transition-all">BEST PLACES FOR WINE</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup</p>
+								<h5 class="text-[21px] group-hover:text-red-500 transition-all">台北信義餐酒|OXI Oyster & Wine Live House．夜生活好去處，聽live演唱吃精緻美食愜意又享受</h5>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">位於台北信義區的精緻餐酒館-「OXI Oyster & Wine Live House」，同時也是音樂酒吧(live house)，第一次體驗開放式用餐空間的餐酒館</p>
 							</div>
 						</div>
 					</NuxtLink>
@@ -295,15 +285,6 @@ onBeforeUnmount(() => {
 		</div>
 
 		<NuxtFooter />
-
-		<div 
-		@click="Top"
-		:class="{ 'opacity-100': GoTop }"
-		class="fixed bottom-8 right-4 w-12 h-12 z-40 bg-gray-900 rounded-full flex justify-center items-center transition-all duration-500 cursor-pointer opacity-0">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-50">
-			  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-			</svg>
-		</div>
 	</div>
 </template>
 
@@ -313,7 +294,6 @@ onBeforeUnmount(() => {
   height: 400px;
   overflow: hidden;
 }
-
 .background-container:before {
   content: ' ';
   position: fixed;
@@ -325,13 +305,10 @@ onBeforeUnmount(() => {
   background: url(/images/oxi-o.jpg) center 0 no-repeat;
   background-size: cover;
 }
-
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
-
 </style>
