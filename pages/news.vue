@@ -24,7 +24,7 @@
 			<div class="w-full md:w-[760px] flex flex-col z-10">
 				<div class="w-full mb-8 px-4 xl:px-0 space-y-2">
 					<span class="bg-red-600 px-2 py-1 text-gray-50 rounded-lg text-[14px] tracking-[2px] font-bold">主打活動</span>
-					<h5 class="font-bold text-[24px] sm:text-[36px] text-gray-900 px-2">一百萬等你來拿！OXI餐酒館水煮魚命名活動，農曆年前誕生百萬富翁</h5>
+					<h5 class="font-bold text-[24px] sm:text-[36px] text-gray-900 px-2">一百萬等你來拿！OXI餐酒館水煮魚命名活動，農曆年前誕生百萬富翁！</h5>
 				</div>
 				
 				<div 
