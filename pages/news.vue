@@ -11,7 +11,7 @@
 		
 		<div 
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-start">
-			<div class="w-1/6 h-[200px] sticky top-36 flex flex-col justify-center items-end px-4">
+			<div class="w-1/6 h-[200px] sticky top-36 flex flex-col justify-center items-end pl-4 pr-2 sm:px-4">
 				<SocialShare
 				    v-for="network in ['facebook', 'twitter', 'whatsapp']"
 				    :key="network"
@@ -22,14 +22,14 @@
 				/>
 			</div>
 			<div class="w-full md:w-[760px] flex flex-col z-10">
-				<div class="w-full mb-8 px-4 xl:px-0 space-y-2">
+				<div class="w-full mb-8 px-2 xl:px-0 space-y-2">
 					<span class="bg-red-600 px-2 py-1 text-gray-50 rounded-lg text-[14px] tracking-[2px] font-bold">主打活動</span>
 					<h5 class="font-bold text-[24px] sm:text-[36px] text-gray-900 px-2">一百萬等你來拿！OXI餐酒館水煮魚命名活動，農曆年前誕生百萬富翁！</h5>
 				</div>
 				
 				<div 
 				data-aos="fade-up"
-				class="relative px-6 2xl:px-0">
+				class="relative px-4 2xl:px-0">
 					<img src="/images/name.jpg" class="rounded-xl">
 
 					<p class="font-light text-[14px] text-gray-900 mt-8 tracking-[2px]">在這個充滿創意與驚喜的季節，台北信義區知名的OXI Oyster & Wine Live House餐酒館推出「百萬元水煮魚命名活動」。這不僅是一次品嚐美食的絕佳機會，更是一場展現您創意，並有機會將百萬獎金帶走。即日起至2024年1月31日，只要來到OXI餐酒館，品嚐這道特色水煮魚料理，並為其賦予一個獨特的名字，上網登錄您的發票及資訊，即有機會成為農曆新年前的下一個百萬富翁。
