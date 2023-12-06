@@ -20,6 +20,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.7.0",
     "aos": "^2.3.4",
     "i": "^0.3.7",
     "npm": "^10.2.4",

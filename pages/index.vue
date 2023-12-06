@@ -33,12 +33,14 @@
 			</div>
 		</div>
 
-		<div class="background-container">
+		<div 
+		class="background-container">
 		  <div class="overlay"></div>
 		  <div 
 		  data-aos="fade-up"
 		  class="content">
-		    <h3 class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
+		    <h3 
+		    class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
 		  </div>
 		</div>
 

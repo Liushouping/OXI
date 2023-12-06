@@ -11,7 +11,7 @@
 		
 		<div 
 		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-start">
-			<div class="w-1/6 h-[200px] sticky top-36 flex flex-col gap-2 justify-center items-end pl-4 pr-2 sm:px-4">
+			<div class="w-1/8 h-[200px] sticky top-36 flex flex-col gap-2 justify-center items-end pl-4 pr-2 sm:px-4">
 				<SocialShare
 				    v-for="network in ['facebook', 'twitter', 'whatsapp']"
 				    :key="network"

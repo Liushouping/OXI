@@ -32,7 +32,8 @@ export default defineNuxtConfig({
   },
   modules: [
     'nuxt-swiper',
-    '@stefanobartoletti/nuxt-social-share'
+    '@stefanobartoletti/nuxt-social-share',
+    '@vueuse/nuxt',
   ],
   swiper: {
   },
