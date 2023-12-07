@@ -59,64 +59,64 @@
 					    }"
 					  >
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/01.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/01.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/02.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/02.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/03.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/03.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/04.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/04.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/05.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/05.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/06.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/06.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/07.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/07.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/08.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/08.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/09.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/09.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/10.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/10.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/11.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/11.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/12.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/12.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/13.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/13.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/14.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/14.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/15.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/15.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/16.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/16.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/17.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/17.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/18.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/18.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/19.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/19.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/20.jpg" class="max-h-[840px] h-full">
+					      <img loading="lazy" src="~/assets/images/orders/20.jpg" class="max-h-[840px] h-auto">
 					    </SwiperSlide>
 					    <div class="flex flex-row space-x-4 pt-8 justify-start">
 					    	<button 
