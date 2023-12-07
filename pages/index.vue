@@ -37,7 +37,6 @@
 		class="background-container">
 		  <div class="overlay"></div>
 		  <div 
-		  data-aos="fade-up"
 		  class="content">
 		    <h3 
 		    class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
@@ -53,7 +52,6 @@
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
 				<div 
-				data-aos="fade-up"
 				class="relative px-6 2xl:px-0">
 					<Swiper
 						class="w-[100%] md:w-[50%] px-20 overflow-auto"
@@ -166,8 +164,6 @@
 			</div>
 			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				data-aos="fade-up"
-        data-aos-delay="150"
 				class="w-[90%] md:w-full h-full flex justify-center items-center">
 					<img loading="lazy" src="~/assets/images/live-01.jpeg" class="rounded-2xl">
 				</div>
@@ -186,34 +182,16 @@
 			<div 
 			class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				data-aos="fade-up"
-			  data-aos-easing="linear"
-			  data-aos-duration="1000"
-			  data-aos-delay="300"
 				class="w-[90%] xl:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
 				<div 
-				data-aos="fade-up"
-			  data-aos-easing="linear"
-			  data-aos-duration="1000"
-			  data-aos-delay="600"
 			  class="w-[90%] xl:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 				</div>
 				<div class="w-full xl:w-auto flex flex-col space-y-6 justify-center items-center">
 					<div 
-					data-aos="fade-up"
-				  data-aos-easing="linear"
-				  data-aos-duration="1000"
-				  data-aos-delay="900"
-				  data-aos-offset="50px"
 					class="w-[90%] xl:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-3.jpg);">
 					</div>
 					<div 
-					data-aos="fade-up"
-				  data-aos-easing="linear"
-				  data-aos-duration="1000"
-				  data-aos-delay="1200"
-				  data-aos-offset="50px"
 					class="w-[90%] xl:w-[400px] h-[400px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 					</div>
 				</div>
@@ -231,9 +209,6 @@
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">THE BLOG</h3>
 				<div 
-				data-aos="fade-up" 
-				data-aos-duration="8000"
-				data-aos-delay="1000"
 				class="flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center">
 					<NuxtLink 
 					to="https://lizzzstyle.tw/oxi-oysterwine-live-house/" target="_blenk"
