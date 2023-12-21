@@ -30,7 +30,7 @@
 	            <img loading="lazy" src="/images/welcome_1.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
 	        	</div>
 						<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
-							<h5 class="text-[36px] font-bold text-[#CFA76A]">LIVE BAND</h5>
+							<h5 class="text-[36px] font-bold text-[#CFA76A] whitespace-nowrap">LIVE BAND</h5>
 							<p class="text-[14px] text-[#CFA76A]">LIVE BAND 的 專業演出，帶您沉浸 音樂饗宴的美好世界</p>
 						</div>
 					</div>
