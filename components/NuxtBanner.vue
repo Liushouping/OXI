@@ -1,6 +1,6 @@
 <template>
-	<div class="bg-gray-900 relative w-full h-screen bg-cover flex justify-center items-center" 
-	style="background-image: url(/images/OXI-all.jpg);">
+	<div class="bg-gray-900 relative w-full h-screen bg-cover flex justify-center items-center"
+	style="background-image: url(/images/banner_1920.webp);">
 		<div class="text-white z-20">
 			<h1 
 			class="text-[24px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-anton" 
@@ -10,14 +10,14 @@
 			<div class="flex justify-center space-x-4 mt-8">
 				<NuxtLink 
 				to="https://inline.app/booking/-Ngbrwze3vHUTAffeuYF:inline-live-3/-NgbrxCXd4dTKjDlLEsM" 
-				class="bg-orange-600 text-white text-[14px] font-bold rounded-xl px-6 py-2 hover:bg-orange-700 transition-all"
+				class="bg-[#CFA76A] text-white text-[14px] font-bold rounded-xl px-6 py-2"
 				target="_blank"
 				data-aos="fade-right"
 			    data-aos-easing="ease-in-sine">BOOK NOW
 				</NuxtLink>
 				<NuxtLink 
 				to="#MENU" 
-				class="bg-orange-400 text-white text-[14px] font-bold rounded-xl px-6 py-2 hover:bg-orange-500 transition-all"
+				class="bg-[#FDD290] text-white text-[14px] font-bold rounded-xl px-6 py-2"
 				data-aos="fade-left"
 			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
 			</div>
@@ -30,7 +30,7 @@
 				</div>
 			</NuxtLink>
 		</span>
-		<div class="bg-gray-900/40 w-full h-screen absolute bottom-0 left-0 z-[9]">
+		<div class="bg-gray-900/10 w-full h-screen absolute bottom-0 left-0 z-[9]">
 		</div>
 <!-- 		<div class="w-full h-screen absolute bottom-0 left-0 z-10" 
 		style="background: linear-gradient(0deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) 30%);"> -->
@@ -41,6 +41,14 @@
 </template>
 
 <style>
+/*	.bg-img {
+		background: linear-gradient(
+			to top,
+			rgb(0 0 0 / 0.5),
+			rgb(0 0 0 / 0)
+		),
+		url(/images/OXI-all.jpg)
+	}*/
 	.hrheight {
         position: absolute;
         width: 2px;

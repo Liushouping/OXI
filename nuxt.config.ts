@@ -17,6 +17,9 @@ export default defineNuxtConfig({
         { 
           rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
         },
+        { 
+          rel: 'apple-touch-icon', href: '/favicon.svg' 
+        },
         // {
         //   rel: "stylesheet",
         //   href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
@@ -34,7 +37,15 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     '@stefanobartoletti/nuxt-social-share',
     '@vueuse/nuxt',
+    'nuxt-gtag'
   ],
+  gtag: {
+    // id: ['G-123456','123123'],
+    // config: {
+    //   page_title: 'My Custom Page Title',
+
+    // }
+  },
   swiper: {
   },
   css: ['~/assets/css/main.css'],

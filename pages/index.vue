@@ -9,11 +9,11 @@
 
 		<div 
 		id="ABOUT"
-		class="relative w-full h-full py-24 bg-gray-100 flex items-center justify-center overflow-hidden">
-			<div class="w-full md:w-[960px] flex flex-col lg:flex-row space-y-6 md:space-y-0">
-				<div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
+		class="relative w-full h-full pt-24 pb-36 bg-gray-50 flex items-center justify-center overflow-hidden">
+			<div class="w-full sm:w-[75%] flex flex-col">
+
+				<div class="w-full flex flex-col justify-center items-center">
 					<div 
-					data-aos="fade-right"
 					class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
 						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
@@ -21,14 +21,38 @@
 						  </span>
 						</div>
 						<h3 class="text-[48px] font-bold">WELCOME</h3>
-						<p class="mt-6 text-[14px] font-light text-center mb-8 lg:mb-0">Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</p>
 					</div>
 				</div>
-				<div 
-				data-aos="fade-left"
-        data-aos-delay="150"
-				class="w-full lg:w-1/2 flex justify-center lg:justify-start items-center px-4">
-					<img loading="lazy" src="~/assets/images/OXI-door.jpg" class="w-[90%] rounded-xl">
+
+				<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 px-4">
+					<div class="flex flex-col justify-center items-center">
+						<div class="aspect-square">
+	            <img loading="lazy" src="/images/welcome_1.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+	        	</div>
+						<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
+							<h5 class="text-[36px] font-bold text-[#CFA76A]">LIVE BAND</h5>
+							<p class="text-[14px] text-[#CFA76A]">LIVE BAND 的 專業演出，帶您沉浸 音樂饗宴的美好世界</p>
+						</div>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+						<div class="aspect-square">
+	            <img loading="lazy" src="/images/welcome_2.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+	        	</div>
+						<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
+							<h5 class="text-[36px] font-bold text-[#CFA76A]">好酒聖地</h5>
+							<p class="text-[14px] text-[#CFA76A]">從經典紅酒到創意調酒，為每個時 刻注入完美風味</p>
+						</div>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+						<div class="aspect-square">
+	            <img loading="lazy" src="/images/welcome_3.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+	        	</div>
+						<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
+							<h5 class="text-[36px] font-bold text-[#CFA76A]">美食天堂</h5>
+							<p class="text-[14px] text-[#CFA76A]">從異國美食到隱藏菜單，每一次用餐 都成為一場味蕾探險</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -45,102 +69,15 @@
 
 		<div 
 		id="MENU"
-		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center">
-			<div class="w-full xl:w-[960px] flex flex-col z-10">
-				<div class="w-full mb-8 px-4 xl:px-0">
-					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
+		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center px-4">
+			<div class="w-full sm:w-[60%] flex flex-col z-10">
+				<div class="w-full mb-8">
+					<h5 class="font-bold text-[36px] text-gray-900">美味菜單 MENU</h5>
 				</div>
 				<div 
-				class="relative px-6 2xl:px-0">
-					<Swiper
-						class="w-[100%] md:w-[50%] px-20 overflow-auto"
-					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
-					    :slides-per-view="1"
-					    :loop="true"
-					    :autoplay="{
-					      delay: 8000,
-					      disableOnInteraction: true,
-					    }"
-					    :navigation="{
-					    	nextEl: '.nuxtnt',
-					    	prevEl: '.prevel'
-					    }"
-					  >
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/01.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/02.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/03.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/04.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/05.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/06.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/07.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/08.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/09.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/10.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/11.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/12.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/13.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/14.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/15.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/16.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/17.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/18.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/19.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/20.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <div class="flex flex-row space-x-4 pt-8 justify-start">
-					    	<button 
-					    	class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-								  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-								</svg>
-						    </button>
-						    <button 
-						    class="prevel h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-							    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-									  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-									</svg>
-								</button>
-					    </div>
-					  </Swiper>
+				class="relative flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0">
+					<img loading="lazy" src="/images/new_menu_1.jpg" class="w-full sm:w-1/2">
+					<img loading="lazy" src="/images/new_menu_2.jpg" class="w-full sm:w-1/2">
 				</div>
 			</div>
 			<span class="absolute top-96 -left-12 text-[96px] text-gray-900 opacity-10 font-bold z-0">DRINK</span>
@@ -163,8 +100,53 @@
 			</div>
 			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				class="w-[90%] md:w-full h-full flex justify-center items-center">
-					<img loading="lazy" src="~/assets/images/live-01.jpeg" class="rounded-2xl">
+				class="w-full md:w-[50%]">
+					<Swiper
+					class="bg-red-300 flex justify-center w-full items-center overflow-auto"
+					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
+					:slides-per-view="1"
+					:loop="true"
+					:autoplay="{
+					  delay: 8000,
+					  disableOnInteraction: true,
+					}"
+					:navigation="{
+					  nextEl: '.nuxtnt',
+					  prevEl: '.prevel'
+					}">
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_1.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_2.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_3.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_4.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_5.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+					  <SwiperSlide class="w-full">
+					    <img loading="lazy" src="~/assets/images/lives/live_6.png" class="max-h-[100%] h-auto">
+					  </SwiperSlide>
+<!-- 					    <div class="flex flex-row space-x-4 pt-8 justify-start">
+					    	<button 
+					    	class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
+						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+								  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+								</svg>
+						    </button>
+						    <button 
+						    class="prevel h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
+							    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+									</svg>
+								</button>
+					    </div> -->
+					</Swiper>
 				</div>
 			</div>
 		</div>
