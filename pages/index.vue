@@ -10,11 +10,11 @@
 		<div 
 		id="ABOUT"
 		class="relative w-full h-full pt-24 pb-36 bg-gray-50 flex items-center justify-center overflow-hidden">
-			<div class="w-full sm:w-[75%] flex flex-col">
+			<div class="w-full sm:w-[75%] flex flex-col space-y-6">
 
 				<div class="w-full flex flex-col justify-center items-center">
 					<div 
-					class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
+					class="w-full px-4 flex flex-col justify-center items-center">
 						<div class="text-[14px]">
 						  <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 						    OXI Oyster & Wine Live House
@@ -102,7 +102,7 @@
 				<div 
 				class="w-full md:w-[50%]">
 					<Swiper
-					class="bg-red-300 flex justify-center w-full items-center overflow-auto"
+					class="bg-red-300 flex justify-center w-full items-center overflow-auto cursor-pointer"
 					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					:slides-per-view="1"
 					:loop="true"
@@ -114,7 +114,7 @@
 					  nextEl: '.nuxtnt',
 					  prevEl: '.prevel'
 					}">
-					  <SwiperSlide class="w-full">
+					  <SwiperSlide class="w-full cursor-pointer">
 					    <img loading="lazy" src="~/assets/images/lives/live_1.png" class="max-h-[100%] h-auto">
 					  </SwiperSlide>
 					  <SwiperSlide class="w-full">
