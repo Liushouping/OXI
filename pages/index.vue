@@ -75,7 +75,7 @@
 					<h5 class="font-bold text-[36px] text-gray-900">美味菜單 MENU</h5>
 				</div>
 				<div 
-				class="relative flex flex-col lg:flex-row space-y-4 sm:space-x-4 sm:space-y-0">
+				class="relative flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">
 					<img loading="lazy" src="/images/new_menu_1.jpg" class="w-full lg:w-1/2">
 					<img loading="lazy" src="/images/new_menu_2.jpg" class="w-full lg:w-1/2">
 				</div>
@@ -161,7 +161,7 @@
 				<h3 class="text-[48px] font-bold mb-8">Life</h3>
 			</div>
 			<div 
-			class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
+			class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
 				class="w-[90%] xl:w-[400px] h-[820px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 				</div>
@@ -182,7 +182,7 @@
 		<div 
 		class="bg-gray-50 w-full h-full flex justify-center items-center py-24 px-4">
 			<div 
-			class="w-full sm:w-[60%] px-4 flex flex-col justify-center items-center">
+			class="w-full sm:w-[90%] px-4 flex flex-col justify-center items-center">
 				<div class="text-[14px]">
 					<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-gray-950">
 					OXI Oyster & Wine Live House
@@ -196,7 +196,7 @@
 					class="group">
 						<div 
 						class="flex justify-center items-center flex-col space-y-4">
-							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-4.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								文章推薦
 								</span>
@@ -210,7 +210,7 @@
 					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiQqpmf2OOCAxURdfUHHWY2DJUQFnoECAgQAQ&url=https%3A%2F%2Fbigshark.tw%2Foxi-oyster-wine-live-house%2F&usg=AOvVaw2dlANldWCocG2BjzqXzM4O&opi=89978449" target="_blenk"
 					class="group">
 						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								文章推薦
 								</span>
@@ -224,7 +224,7 @@
 					<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk"
 					class="group">
 						<div class="flex justify-center items-center flex-col space-y-4">
-							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
+							<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
 								<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
 								文章推薦
 								</span>
