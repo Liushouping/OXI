@@ -75,9 +75,9 @@
 					<h5 class="font-bold text-[36px] text-gray-900">美味菜單 MENU</h5>
 				</div>
 				<div 
-				class="relative flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0">
-					<img loading="lazy" src="/images/new_menu_1.jpg" class="w-full sm:w-1/2">
-					<img loading="lazy" src="/images/new_menu_2.jpg" class="w-full sm:w-1/2">
+				class="relative flex flex-col lg:flex-row space-y-4 sm:space-x-4 sm:space-y-0">
+					<img loading="lazy" src="/images/new_menu_1.jpg" class="w-full lg:w-1/2">
+					<img loading="lazy" src="/images/new_menu_2.jpg" class="w-full lg:w-1/2">
 				</div>
 			</div>
 			<span class="absolute top-96 -left-12 text-[96px] text-gray-900 opacity-10 font-bold z-0">DRINK</span>
@@ -98,9 +98,9 @@
 				</div>
 				<h3 class="text-[48px] font-bold mb-8">Live</h3>
 			</div>
-			<div class="w-full sm:w-[60%] xl:w-[100%] flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
+			<div class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				class="w-full md:w-[50%]">
+				class="w-full lg:w-[50%]">
 					<Swiper
 					class="bg-red-300 flex justify-center w-full items-center overflow-auto cursor-pointer"
 					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
