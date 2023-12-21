@@ -100,7 +100,7 @@
 			</div>
 			<div class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 				<div 
-				class="w-full lg:w-[50%]">
+				class="w-full xl:w-[50%] px-4 sm:px-12">
 					<Swiper
 					class="bg-red-300 flex justify-center w-full items-center overflow-auto cursor-pointer"
 					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
