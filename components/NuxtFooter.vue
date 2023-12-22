@@ -1,3 +1,6 @@
+<script setup>
+const Year = new Date().getFullYear();
+</script>
 <template>
 	<footer 
 	id="CONTACT"
@@ -73,7 +76,7 @@
 					</a>
 				</li>
 			</ul>
-			<p class="text-gray-400 font-light text-[14px]">© Copyright 2023 OXI. All rights reserved</p>
+			<p class="text-gray-400 font-light text-[14px]">© Copyright {{ Year }} OXI. All rights reserved</p>
 		</div>
 	</div>
 </template>
