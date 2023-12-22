@@ -147,7 +147,7 @@
 			<div class="w-full xl:w-[960px]">
 				<div 
 				class="relative w-[full] h-full md:h-[500px] flex flex-col md:flex-row px-4">
-					<div class="w-full md:w-1/2 h-[400px] md:h-full bg-cover" style="background-image: url(/images/OXI-all.jpg);">	
+					<div class="w-full md:w-1/2 h-[400px] md:h-full bg-cover" style="background-image: url(/images/welcome_3.webp);">	
 					</div>
 					<div class="w-full md:w-1/2 h-[400px] md:h-full bg-gray-900 flex flex-col justify-center items-center px-12 space-y-6">
 						<h5 class="w-full text-[24px] text-gray-50 font-bold">包場慶生</h5>
