@@ -40,11 +40,11 @@ export default defineNuxtConfig({
     'nuxt-gtag'
   ],
   gtag: {
-    // id: ['G-123456','123123'],
-    // config: {
-    //   page_title: 'My Custom Page Title',
+    id: 'AW-11363750698',
+    config: {
+      page_title: 'Oxi Website',
 
-    // }
+    }
   },
   swiper: {
   },
