@@ -22,7 +22,10 @@
 			    data-aos-easing="ease-in-sine">LOOK MENU</NuxtLink>
 			</div>
 		</div>
-		<span  class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
+		<span 
+		data-aos="zoom-in"
+		data-aos-delay="150"
+		class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
 			<NuxtLink 
 			to="#ABOUT">
 				<div class="relative border-[3px] h-[48px] px-[12px] rounded-2xl flex justify-center items-center">
