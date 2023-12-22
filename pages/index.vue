@@ -203,7 +203,7 @@
 							</div>
 							<div class="mt-8 px-0">
 								<h5 class="text-[21px] font-bold group-hover:text-red-500 transition-all">信義區餐酒館推薦！推海鮮義大利麵、麻辣水煮魚 週末假日有live band演出超適合約會聚餐</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">一進去Oxi oyster & wine live house ，就可以感受到週遭挺熱鬧的氛圍～入口處會看到Oxi oyster & wine live house 的招牌，往右手邊處走去可以找到櫃檯報到處。</p>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-2">一進去Oxi oyster & wine live house ，就可以感受到週遭挺熱鬧的氛圍～入口處會看到Oxi oyster & wine live house 的招牌，往右手邊處走去可以找到櫃檯報到處。</p>
 							</div>
 						</div>
 					</NuxtLink>
@@ -217,7 +217,7 @@
 							</div>
 							<div class="mt-8 px-0">
 								<h5 class="text-[21px] font-bold group-hover:text-red-500 transition-all">【台北美食】oxi oyster &wine live house，質感現場演唱餐酒館，信義美食推薦（菜單）</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">oxi oyster & wine live house位於台北信義區的Att valley廣場B1內，Att valley廣場內有有一些美食餐廳，旁邊就有知名的刁民酸菜魚。oxi oyster & wine live house 的氣氛超棒</p>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-2">oxi oyster & wine live house位於台北信義區的Att valley廣場B1內，Att valley廣場內有有一些美食餐廳，旁邊就有知名的刁民酸菜魚。oxi oyster & wine live house 的氣氛超棒</p>
 							</div>
 						</div>
 					</NuxtLink>
@@ -231,7 +231,7 @@
 							</div>
 							<div class="mt-8 px-0">
 								<h5 class="text-[21px] font-bold group-hover:text-red-500 transition-all">台北信義餐酒|OXI Oyster & Wine Live House．夜生活好去處，聽live演唱吃精緻美食愜意又享受</h5>
-								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-3">位於台北信義區的精緻餐酒館-「OXI Oyster & Wine Live House」，同時也是音樂酒吧(live house)，第一次體驗開放式用餐空間的餐酒館</p>
+								<p class="text-[14px] font-light mt-4 group-hover:text-red-400 transition-all line-clamp-2">位於台北信義區的精緻餐酒館-「OXI Oyster & Wine Live House」，同時也是音樂酒吧(live house)，第一次體驗開放式用餐空間的餐酒館</p>
 							</div>
 						</div>
 					</NuxtLink>
