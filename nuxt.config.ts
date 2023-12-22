@@ -20,17 +20,17 @@ export default defineNuxtConfig({
         { 
           rel: 'apple-touch-icon', href: '/favicon.svg' 
         },
-        // {
-        //   rel: "stylesheet",
-        //   href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
-        // },
+        {
+          rel: "stylesheet",
+          href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
+        },
       ],
-      // script: [
-      //   {
-      //     src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
-      //     type: "text/javascript",
-      //   },
-      // ],
+      script: [
+        {
+          src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
+          type: "text/javascript",
+        },
+      ],
     },
   },
   modules: [
