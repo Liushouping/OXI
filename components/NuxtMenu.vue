@@ -1,8 +1,8 @@
 <script setup>
 onMounted(() => {
-     Fancybox.bind('[data-fancybox="gallery"]', {
-        //
-      });    
+    Fancybox.bind('[data-fancybox="gallery"]', {
+
+    });    
 });
 </script>
 <template>
@@ -15,10 +15,10 @@ onMounted(() => {
 			</div>
 			<div 
 			class="relative flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">
-				<a data-fancybox="gallery" data-src="/images/new_menu_1.jpg" data-caption="OXI MENU" class="w-full lg:w-1/2 cursor-zoom-in">
+				<a data-fancybox="gallery" data-src="/images/new_menu_1.jpg" class="w-full lg:w-1/2 cursor-zoom-in">
 			        <img loading="lazy" src="/images/new_menu_1.jpg" class="w-full">
 			    </a>
-			    <a data-fancybox="gallery" data-src="/images/new_menu_2.jpg" data-caption="OXI MENU" class="w-full lg:w-1/2 cursor-zoom-in">
+			    <a data-fancybox="gallery" data-src="/images/new_menu_2.jpg" class="w-full lg:w-1/2 cursor-zoom-in">
 			        <img loading="lazy" src="/images/new_menu_2.jpg" class="w-full">
 			    </a>
 			</div>
