@@ -102,7 +102,7 @@
 				<div 
 				class="w-full xl:w-[50%] px-4 sm:px-12">
 					<Swiper
-					class="bg-red-300 flex justify-center w-full items-center overflow-auto cursor-pointer"
+					class="bg-gray-900 flex justify-center w-full items-center overflow-auto cursor-pointer"
 					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
 					:slides-per-view="1"
 					:loop="true"
