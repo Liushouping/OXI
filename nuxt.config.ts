@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
         { property: 'og:title', content: 'OXI Oyster & Wine Live House | Taipei' },
         { property: 'og:description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
-        { property: 'og:image', content: '/images/OXI-all.jpg' }
+        { property: 'og:image', content: '/images/welcome_3.webp' }
       ],
       link: [
         { 
