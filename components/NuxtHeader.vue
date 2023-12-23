@@ -103,10 +103,12 @@ onBeforeUnmount(() => {
 }
 
 .slide-up-enter-from {
+	transform: translateY(-1%);
   opacity: 0;
 }
 
 .slide-up-leave-to {
+	transform: translateY(-1%);
   opacity: 0;
 }
 </style>
