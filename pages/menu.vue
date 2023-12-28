@@ -1,9 +1,20 @@
 <script setup>
-// onMounted(() => {
-//      Fancybox.bind('[data-fancybox="gallery"]', {
-//         //
-//       });    
-// });
+
+const images = [
+	{
+		src: "/images/new_menu_1.jpg",
+        alt: "menu"
+	},
+	{
+		src: "/images/new_menu_2.jpg",
+        alt: "menu"
+	}
+];
+onMounted(() => {
+    Fancybox.bind('[data-fancybox="gallery"]', {
+
+    });    
+});
 </script>
 
 <template>
@@ -17,122 +28,22 @@
 			</div>
 		</div>
 
-<!-- 		<div>
-			      <a
-			         data-fancybox="gallery"
-			         data-src="https://lipsum.app/id/2/1024x768"
-			         data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-			         >
-			        <img src="https://lipsum.app/id/2/200x150" />
-			      </a>
-
-			      <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
-			        <img src="https://lipsum.app/id/3/200x150" />
-			      </a>
-
-			      <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1024x768">
-			        <img src="https://lipsum.app/id/4/200x150" />
-			      </a>
-		</div> -->
-
 		<div 
-		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center">
+		class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center px-4">
 			<div class="w-full xl:w-[960px] flex flex-col z-10">
 				<div class="w-full mb-8 px-4 xl:px-0">
 					<h5 class="font-bold text-[36px] text-gray-900 px-2">美味菜單 MENU</h5>
 				</div>
 				<div 
-				data-aos="fade-up"
-				class="relative px-6 2xl:px-0">
-					<Swiper
-						class="w-[100%] md:w-[50%] px-20 overflow-auto"
-					    :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
-					    :slides-per-view="1"
-					    :loop="true"
-					    :autoplay="{
-					      delay: 8000,
-					      disableOnInteraction: true,
-					    }"
-					    :navigation="{
-					    	nextEl: '.nuxtnt',
-					    	prevEl: '.prevel'
-					    }"
-					  >
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/01.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/02.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/03.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/04.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/05.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/06.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/07.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/08.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/09.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/10.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/11.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/12.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/13.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/14.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/15.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/16.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/17.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/18.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/19.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <SwiperSlide class="w-full">
-					      <img loading="lazy" src="~/assets/images/orders/20.jpg" class="max-h-[840px] h-auto">
-					    </SwiperSlide>
-					    <div class="flex flex-row space-x-4 pt-8 justify-start">
-					    	<button 
-					    	class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-						    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-								  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-								</svg>
-						    </button>
-						    <button 
-						    class="prevel h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-							    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-									  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-									</svg>
-								</button>
-					    </div>
-					  </Swiper>
+				class="relative flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">
+					<a 
+				    v-for="(image, index) in images"
+	      			:key="index"
+				    data-fancybox="gallery" 
+				    :data-src="image.src"
+				    class="w-full lg:w-1/2 cursor-zoom-in">
+				        <img loading="lazy" :src="image.src" :alt="image.alt" class="w-full">
+				    </a>
 				</div>
 			</div>
 			<span class="absolute top-96 -left-12 text-[96px] text-gray-900 opacity-10 font-bold z-0">DRINK</span>
