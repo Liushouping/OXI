@@ -27,37 +27,23 @@ class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24"
 				prevEl: '.prevel'
 			}">
 				<SwiperSlide class="w-full cursor-pointer">
-					<img data-not-lazy src="~/assets/images/lives/live_1.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_1.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img data-not-lazy src="~/assets/images/lives/live_2.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_2.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img data-not-lazy src="~/assets/images/lives/live_3.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_3.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img data-not-lazy src="~/assets/images/lives/live_4.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_4.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img data-not-lazy src="~/assets/images/lives/live_5.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_5.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img data-not-lazy src="~/assets/images/lives/live_6.png" class="max-h-[100%] h-auto">
+					<img src="/images/lives/live_6.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
-<!-- 				<div class="flex flex-row space-x-4 pt-8 justify-start">
-					<button 
-					class="relative nuxtnt h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-						</svg>
-					</button>
-					<button 
-					class="prevel h-[60px] w-[60px] rounded-full border border-gray-900 flex justify-center items-center z-20 hover:bg-gray-900 hover:text-gray-50 transition-all">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-						</svg>
-					</button>
-				</div> -->
 			</Swiper>
 		</div>
 	</div>
