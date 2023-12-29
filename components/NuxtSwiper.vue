@@ -27,22 +27,22 @@ class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24"
 				prevEl: '.prevel'
 			}">
 				<SwiperSlide class="w-full cursor-pointer">
-					<img loading="lazy" src="~/assets/images/lives/live_1.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_1.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img loading="lazy" src="~/assets/images/lives/live_2.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_2.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img loading="lazy" src="~/assets/images/lives/live_3.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_3.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img loading="lazy" src="~/assets/images/lives/live_4.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_4.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img loading="lazy" src="~/assets/images/lives/live_5.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_5.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img loading="lazy" src="~/assets/images/lives/live_6.png" class="max-h-[100%] h-auto">
+					<img data-not-lazy src="~/assets/images/lives/live_6.png" class="max-h-[100%] h-auto">
 				</SwiperSlide>
 <!-- 				<div class="flex flex-row space-x-4 pt-8 justify-start">
 					<button 

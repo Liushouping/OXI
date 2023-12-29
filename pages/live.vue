@@ -26,7 +26,7 @@
 						<p class="mt-6 text-[14px] font-light text-left mb-8 lg:mb-0">Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味</p>
 					</div>
 					<div class="relative w-full lg:w-3/4 flex flex-row bg-gray-900">
-						<img src="~/assets/images/live/OXI_Live-15.jpg" class="w-1/2">
+						<img data-not-lazy src="~/assets/images/live/OXI_Live-15.jpg" class="w-1/2">
 						<img src="/images/oxi-3.jpg" class="w-1/2">
 					</div>
 				</div>

@@ -34,11 +34,15 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    '@bluesyoung/nuxt3-lazy-load',
     'nuxt-swiper',
     '@stefanobartoletti/nuxt-social-share',
     '@vueuse/nuxt',
     'nuxt-gtag'
   ],
+  '@bluesyoung/nuxt3-lazy-load': {
+    
+  },
   gtag: {
     id: 'AW-11363750698',
     config: {

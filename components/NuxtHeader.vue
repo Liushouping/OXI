@@ -33,7 +33,7 @@ onBeforeUnmount(() => {
 			:style="{ height: `${headerHeight}px`, backgroundColor: headerBackgroundColor, color: headerTextColor }">
 				<div class="max-w-[960px] w-full flex flex-row justify-between items-center">
 					<NuxtLink to="/">
-						<img src="~/assets/images/OXI-LOGO-Y.png" data-aos="fade-right" class="w-[60px]">
+						<img data-not-lazy src="~/assets/images/OXI-LOGO-Y.png" data-aos="fade-right" class="w-[60px]">
 					</NuxtLink>
 					<div 
 					class="flex md:hidden cursor-pointer"
