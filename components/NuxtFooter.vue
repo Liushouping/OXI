@@ -24,7 +24,7 @@ const Year = new Date().getFullYear();
 						  <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clip-rule="evenodd" />
 						</svg>
 					</span>
-					<a href="tel:oxi.taipei@gmail.com">02-8786-6736</a></li>
+					<a href="tel:0287861688">02-8786-1688</a></li>
 					<li class="flex flex-row space-x-2 items-center text-gray-400">
 					<span>
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -40,10 +40,11 @@ const Year = new Date().getFullYear();
 			class="w-full md:w-1/3">
 				<h5 class="text-white font-bold text-[18px]">OPENING TIMES</h5>
 				<ul class="mt-8 text-gray-400 font-medium text-[14px] space-y-2">
-					<li>午餐時段</li>
+					<li>❏ 平日營業時段</li>
 					<li>11:00-14:00</li>
-					<li>晚間時段</li>
-					<li>17:30-01:00 (Last Order 21:00)</li>
+					<li>17:00-01:00 (Last Order 22:00)</li>
+					<li>❏ 假日營業時段</li>
+					<li>17:00-01:00 (Last Order 22:00)</li>
 				</ul>
 			</div>
 			<div 

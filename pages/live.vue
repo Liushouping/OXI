@@ -32,9 +32,42 @@
 				</div>
 
 				<div class="relative w-full py-24 flex flex-col md:flex-row justify-center items-center px-4 space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-					<img src="/images/live-time-0.png" class="w-full md:w-1/3">
+					<!-- <img src="/images/live-time-0.png" class="w-full md:w-1/3">
 					<img src="/images/live-time-1.jpg" class="w-full md:w-1/3">
-					<img src="/images/live-time-2.jpg" class="w-full md:w-1/3">
+					<img src="/images/live-time-2.jpg" class="w-full md:w-1/3"> -->
+					<Swiper
+					class="flex justify-center w-full items-center overflow-auto cursor-pointer gap-2"
+					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
+					:slides-per-view="3"
+					:loop="true"
+					:spaceBetween="20"
+					:autoplay="{
+						delay: 8000,
+						disableOnInteraction: true,
+					}"
+					:navigation="{
+						nextEl: '.nuxtnt',
+						prevEl: '.prevel'
+					}">
+						<SwiperSlide class="w-full cursor-pointer">
+							<img src="/images/lives/live_1.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+						<SwiperSlide class="w-full">
+							<img src="/images/lives/live_2.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+						<SwiperSlide class="w-full">
+							<img src="/images/lives/live_3.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+						<SwiperSlide class="w-full">
+							<img src="/images/lives/live_4.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+						<SwiperSlide class="w-full">
+							<img src="/images/lives/live_5.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+						<SwiperSlide class="w-full">
+							<img src="/images/lives/live_6.jpg" class="max-h-[100%] h-auto">
+						</SwiperSlide>
+					</Swiper>
 				</div>
 
 				<div 
