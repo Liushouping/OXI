@@ -1,3 +1,12 @@
+<script setup>
+const scrollabout = () => {
+  const targetElement = document.getElementById("ABOUT");
+  targetElement.scrollIntoView({ 
+  	behavior: 'smooth',
+  	block: 'end'
+  });
+}
+</script>
 <template>
 	<div class="bg-gray-900 relative w-full h-screen bg-cover flex justify-center items-center"
 	style="background-image: url(/images/banner_1920.webp);">
@@ -27,7 +36,9 @@
 		data-aos-delay="150"
 		class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
 			<NuxtLink 
-			to="#ABOUT">
+			to=""
+			class="cursor-pointer"
+			@click="scrollabout">
 				<div class="relative border-[3px] h-[48px] px-[12px] rounded-2xl flex justify-center items-center">
 				    <span class="hrheight"></span>
 				</div>
