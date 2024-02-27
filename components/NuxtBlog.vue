@@ -18,7 +18,7 @@ class="bg-gray-50 w-full h-full flex justify-center items-center py-24 px-4">
 					<div 
 					class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" 
 					style="background-image: url(/images/oxi-4.jpg);">
-						<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+						<span class="px-4 py-1 bg-[#00000080]/30 rounded-lg text-white absolute bottom-4 left-4 text-[10px] tracking-[2px]">
 						文章推薦
 						</span>
 					</div>
@@ -31,7 +31,7 @@ class="bg-gray-50 w-full h-full flex justify-center items-center py-24 px-4">
 			<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiQqpmf2OOCAxURdfUHHWY2DJUQFnoECAgQAQ&url=https%3A%2F%2Fbigshark.tw%2Foxi-oyster-wine-live-house%2F&usg=AOvVaw2dlANldWCocG2BjzqXzM4O&opi=89978449" target="_blenk" class="group">
 				<div class="flex justify-center items-center flex-col space-y-4">
 					<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-1.jpg);">
-						<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+						<span class="px-4 py-1 bg-[#00000080]/30 rounded-lg text-white absolute bottom-4 left-4 text-[10px] tracking-[2px]">
 						文章推薦
 						</span>
 					</div>
@@ -44,7 +44,7 @@ class="bg-gray-50 w-full h-full flex justify-center items-center py-24 px-4">
 			<NuxtLink to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3n5XYuMiCAxVyr1YBHaenBz8QFnoECA0QAQ&url=https%3A%2F%2Fwww.walkerland.com.tw%2Farticle%2Fview%2F375249&usg=AOvVaw2JEL3fZqLmaWJHLc4ifLc3&opi=89978449" target="_blenk" class="group">
 				<div class="flex justify-center items-center flex-col space-y-4">
 					<div class="relative min-w-[90%] sm:min-w-[400px] w-full h-[400px] lg:h-[300px] bg-cover rounded-2xl" style="background-image: url(/images/oxi-2.jpg);">
-						<span class="px-4 py-0 bg-[#00000080] rounded-sm text-white absolute bottom-4 left-4 text-[12px] tracking-[1px]">
+						<span class="px-4 py-1 bg-[#00000080]/30 rounded-lg text-white absolute bottom-4 left-4 text-[10px] tracking-[2px]">
 						文章推薦
 						</span>
 					</div>
