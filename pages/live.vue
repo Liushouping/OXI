@@ -41,6 +41,17 @@
 					:slides-per-view="3"
 					:loop="true"
 					:spaceBetween="20"
+					:breakpoints="{
+						1200: {
+							slidesPerView: 3
+						},
+						468: {
+							slidesPerView: 2
+						},
+						368: {
+							slidesPerView: 1
+						}
+					}"
 					:autoplay="{
 						delay: 8000,
 						disableOnInteraction: true,
