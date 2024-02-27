@@ -20,8 +20,7 @@ const scrollfooter = () => {
   const targetElement = document.getElementById("CONTACT");
   targetElement.scrollIntoView({ 
   	behavior: 'smooth',
-  	block: 'start',
-    inline: 'start'
+  	block: 'end'
   });
 }
 
