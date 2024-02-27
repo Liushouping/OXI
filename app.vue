@@ -12,6 +12,7 @@
 
 :root {
   font-family: 'Noto Serif TC', serif;
+  letter-spacing: 1px;
 }
 
 .font-anton {
