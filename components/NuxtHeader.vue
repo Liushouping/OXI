@@ -16,6 +16,15 @@ const handleScroll = () => {
     headerIcon.value = scrollY < 60;
 };
 
+const scrollfooter = () => {
+  const targetElement = document.getElementById("CONTACT");
+  targetElement.scrollIntoView({ 
+  	behavior: 'smooth',
+  	block: 'start',
+    inline: 'start'
+  });
+}
+
 onMounted(() => {
     window.addEventListener('scroll', handleScroll);
 });
@@ -49,7 +58,7 @@ onBeforeUnmount(() => {
 						<li><NuxtLink to="/news">NEWS</NuxtLink></li>
 						<li><NuxtLink to="/menu">MENU</NuxtLink></li>
 						<li><NuxtLink to="/live">LIVE</NuxtLink></li>
-						<li><NuxtLink to="#CONTACT">CONTACT</NuxtLink></li>
+						<li><NuxtLink to="" @click="scrollfooter" class="cursor-pointer">CONTACT</NuxtLink></li>
 					</ul>
 					<ul 
 					data-aos="fade-left"
