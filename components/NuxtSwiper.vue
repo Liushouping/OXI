@@ -27,22 +27,22 @@ class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24"
 				prevEl: '.prevel'
 			}">
 				<SwiperSlide class="w-full cursor-pointer">
-					<img src="/images/lives/live_1.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_1.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img src="/images/lives/live_2.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_2.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img src="/images/lives/live_3.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_3.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img src="/images/lives/live_4.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_4.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img src="/images/lives/live_5.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_5.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 				<SwiperSlide class="w-full">
-					<img src="/images/lives/live_6.jpg" class="max-h-[100%] h-auto" alt="live">
+					<img src="/images/lives/live_6.jpg" class="max-h-[100%] h-auto" alt="live" loading="lazy">
 				</SwiperSlide>
 			</Swiper>
 		</div>
