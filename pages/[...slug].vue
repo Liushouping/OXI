@@ -22,7 +22,8 @@ useHead({
 				<p class="text-[24px] font-anton text-gray-800">We can't find that page ...</p>
 				<div class="flex flex-row space-x-4">
 					<NuxtLink
-					to="/"
+					to="javascript:;"
+					@click="$router.back()"
 					class="bg-gray-800 text-[12px] px-6 py-2 font-light text-gray-50 rounded-lg flex flex-row items-center tracking-[1px] hover:bg-gray-700 transition-colors mt-8">
 						<span class="mr-1">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
