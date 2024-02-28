@@ -1,3 +1,8 @@
+<script setup>
+useHead({
+  title: 'Live | OXI Oyster & Wine Live House | Taipei',
+})
+</script>
 <template>
 	<div>
 		<NuxtHeader />

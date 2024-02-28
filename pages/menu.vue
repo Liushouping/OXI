@@ -1,4 +1,7 @@
 <script setup>
+useHead({
+  title: 'Menu | OXI Oyster & Wine Live House | Taipei',
+})
 
 const images = [
 	{

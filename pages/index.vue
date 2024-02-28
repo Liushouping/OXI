@@ -1,3 +1,8 @@
+<script setup>
+useHead({
+  title: 'OXI Oyster & Wine Live House | Taipei',
+})
+</script>
 <template>
 	<div>
 		<!-- -->
