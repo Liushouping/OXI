@@ -4,8 +4,7 @@
 		<div class="overlay"></div>
 		<div 
 		class="content">
-			<h3 
-		    class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</h3>
+			<p class="text-white text-[24px] sm:text-[48px] font-bold">Music and Wine</p>
 		</div>
 	</div>
 </template>

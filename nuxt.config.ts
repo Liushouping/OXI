@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
-    // pageTransition: { name: 'page', mode: 'out-in' },
+    htmlAttrs: {
+        lang: 'en',
+    },
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',

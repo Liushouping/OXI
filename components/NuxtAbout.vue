@@ -12,7 +12,7 @@
 						OXI Oyster & Wine Live House
 						</span>
 					</div>
-					<h3 class="text-[48px] font-bold">WELCOME</h3>
+					<p class="text-[48px] font-bold">WELCOME</p>
 				</div>
 			</div>
 

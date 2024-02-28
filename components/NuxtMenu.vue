@@ -21,7 +21,7 @@ onMounted(() => {
 	class="bg-gray-50 relative w-full h-full py-24 flex justify-center items-center px-4">
 		<div class="w-full sm:w-[90%] xl:w-[60%] flex flex-col z-10">
 			<div class="w-full mb-8">
-				<h5 class="font-bold text-[36px] text-gray-900">美味菜單 MENU</h5>
+				<p class="font-bold text-[36px] text-gray-900">美味菜單 MENU</p>
 			</div>
 			<div 
 			class="relative flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">

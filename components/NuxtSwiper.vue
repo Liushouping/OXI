@@ -8,7 +8,7 @@ class="bg-gray-50 w-full h-full flex flex-col justify-center items-center py-24"
 			OXI Oyster & Wine Live House
 			</span>
 		</div>
-		<h3 class="text-[48px] font-bold mb-8">Live</h3>
+		<p class="text-[48px] font-bold mb-8">Live</p>
 	</div>
 	<div class="w-full flex flex-col xl:flex-row space-y-6 xl:space-y-0 space-x-0 xl:space-x-6 justify-center items-center px-4">
 		<div 
