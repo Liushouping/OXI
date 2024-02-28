@@ -2,10 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
-    htmlAttrs: {
-        lang: 'en',
-    },
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'OXI Oyster & Wine Live House | Taipei',
