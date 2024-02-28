@@ -15,7 +15,7 @@
   height: 400px;
   overflow: hidden;
 }
-/*.background-container:before {
+.background-container:before {
   content: ' ';
   position: fixed;
   z-index: -1;
@@ -25,7 +25,7 @@
   left: 0;
   background: url(/images/oxi-o.jpg) center 0 no-repeat;
   background-size: cover;
-}*/
+}
 .content {
   display: flex;
   justify-content: center;

@@ -31,7 +31,7 @@ onMounted(() => {
 			    data-fancybox="gallery" 
 			    :data-src="image.src"
 			    class="w-full lg:w-1/2 cursor-zoom-in">
-			        <img  :src="image.src" :alt="image.alt" class="w-full">
+			        <img :src="image.src" :alt="image.alt" class="w-full">
 			    </a> -->
 			</div>
 		</div>

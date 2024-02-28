@@ -32,14 +32,14 @@ useHead({
 					</div>
 					<div class="relative w-full lg:w-3/4 flex flex-row bg-gray-900">
 						<img data-not-lazy src="~/assets/images/live/OXI_Live-15.jpg" class="w-1/2">
-						<img src="/images/oxi-3.jpg" class="w-1/2">
+						<img src="/images/oxi-3.jpg" class="w-1/2" loading="lazy">
 					</div>
 				</div>
 
 				<div class="relative w-full py-24 flex flex-col md:flex-row justify-center items-center px-4 space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-					<!-- <img src="/images/live-time-0.png" class="w-full md:w-1/3">
-					<img src="/images/live-time-1.jpg" class="w-full md:w-1/3">
-					<img src="/images/live-time-2.jpg" class="w-full md:w-1/3"> -->
+					<!-- <img src="/images/live-time-0.png" class="w-full md:w-1/3" loading="lazy">
+					<img src="/images/live-time-1.jpg" class="w-full md:w-1/3" loading="lazy">
+					<img src="/images/live-time-2.jpg" class="w-full md:w-1/3" loading="lazy"> -->
 					<Swiper
 					class="flex justify-center w-full items-center overflow-auto cursor-pointer gap-2"
 					:modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
