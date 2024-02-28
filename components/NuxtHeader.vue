@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
 						<li><NuxtLink to="/news">NEWS</NuxtLink></li>
 						<li><NuxtLink to="/menu">MENU</NuxtLink></li>
 						<li><NuxtLink to="/live">LIVE</NuxtLink></li>
-						<li><NuxtLink to="" @click="scrollfooter" class="cursor-pointer">CONTACT</NuxtLink></li>
+						<li><Button type="button" @click="scrollfooter" class="cursor-pointer">CONTACT</Button></li>
 					</ul>
 					<ul 
 					data-aos="fade-left"
@@ -95,7 +95,7 @@ onBeforeUnmount(() => {
 							<li><NuxtLink to="/news" @click="menu =! menu">NEWS</NuxtLink></li>
 							<li><NuxtLink to="/menu" @click="menu =! menu">MENU</NuxtLink></li>
 							<li><NuxtLink to="/live" @click="menu =! menu">LIVE</NuxtLink></li>
-							<li><NuxtLink to="#CONTACT" @click="menu =! menu">CONTACT</NuxtLink></li>
+							<li><Button type="button" class="cursor-pointer" @click="menu =! menu;scrollfooter();">CONTACT</Button></li>
 						</ul>
 		      </div>
 		    </div>

@@ -35,9 +35,7 @@ const scrollabout = () => {
 		data-aos="zoom-in"
 		data-aos-delay="150"
 		class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
-			<button
-			class="cursor-pointer"
-			@click="scrollabout">
+			<button class="cursor-pointer" @click="scrollabout">
 				<div class="relative border-[3px] h-[48px] px-[12px] rounded-2xl flex justify-center items-center">
 				    <span class="hrheight"></span>
 				</div>
