@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
 						<li><NuxtLink to="/news">NEWS</NuxtLink></li>
 						<li><NuxtLink to="/menu">MENU</NuxtLink></li>
 						<li><NuxtLink to="/live">LIVE</NuxtLink></li>
-						<li><Button @click="scrollfooter" class="cursor-pointer">CONTACT</Button></li>
+						<li><span @click="scrollfooter" class="cursor-pointer">CONTACT</span></li>
 					</ul>
 					<ul 
 					data-aos="fade-left"
@@ -84,18 +84,18 @@ onBeforeUnmount(() => {
 		    <div 
 		    v-if="menu" 
 		    class="fixed top-0 left-0 w-full h-screen bg-gray-900 flex justify-center items-center z-[101]">
-		      <button @click="menu =! menu" class="fixed top-8 right-4">
+		      <span @click="menu =! menu" class="fixed top-8 right-4 cursor-pointer">
 		        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
 				  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 				</svg>
-		      </button>
+		      </span>
 		      <div class="flex justify-center items-center">
 		      	<ul class="flex flex-col justify-center items-center text-white md:hidden space-y-6 font-bold text-[14px]">
 		      		<li><NuxtLink to="/" @click="menu =! menu">HOME</NuxtLink></li>
 							<li><NuxtLink to="/news" @click="menu =! menu">NEWS</NuxtLink></li>
 							<li><NuxtLink to="/menu" @click="menu =! menu">MENU</NuxtLink></li>
 							<li><NuxtLink to="/live" @click="menu =! menu">LIVE</NuxtLink></li>
-							<li><Button class="cursor-pointer" @click="menu =! menu;scrollfooter();">CONTACT</Button></li>
+							<li><span class="cursor-pointer" @click="menu =! menu;scrollfooter();">CONTACT</span></li>
 						</ul>
 		      </div>
 		    </div>
