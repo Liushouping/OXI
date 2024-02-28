@@ -19,7 +19,7 @@
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 px-4">
 				<div class="flex flex-col justify-center items-center">
 					<div class="aspect-square">
-			            <img loading="lazy" src="/images/welcome_1.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+			            <img loading="lazy" src="/images/welcome_1.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0" alt="LIVE BAND">
 			        </div>
 					<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
 						<h5 class="text-[36px] font-bold text-[#CFA76A] whitespace-nowrap">LIVE BAND</h5>
@@ -28,7 +28,7 @@
 				</div>
 				<div class="flex flex-col justify-center items-center">
 					<div class="aspect-square">
-	            		<img loading="lazy" src="/images/welcome_2.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+	            		<img loading="lazy" src="/images/welcome_2.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0" alt="好酒聖地">
 	        		</div>
 					<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
 						<h5 class="text-[36px] font-bold text-[#CFA76A]">好酒聖地</h5>
@@ -37,7 +37,7 @@
 					</div>
 				<div class="flex flex-col justify-center items-center">
 					<div class="aspect-square">
-	            		<img loading="lazy" src="/images/welcome_3.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0">
+	            		<img loading="lazy" src="/images/welcome_3.webp" class="rounded-full w-full h-full object-cover p-12 sm:p-0" alt="美食天堂">
 	        		</div>
 					<div class="mt-4 w-full flex flex-col justify-center items-center lg:items-start">
 						<h5 class="text-[36px] font-bold text-[#CFA76A]">美食天堂</h5>

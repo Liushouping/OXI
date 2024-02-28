@@ -14,6 +14,9 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '/images/welcome_3.webp' }
       ],
       link: [
+        {
+          rel: 'canonical', href: 'https://oxi.taipei'
+        },
         { 
           rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
         },

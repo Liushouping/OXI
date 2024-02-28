@@ -35,14 +35,13 @@ const scrollabout = () => {
 		data-aos="zoom-in"
 		data-aos-delay="150"
 		class="w-[10px] h-[10px] absolute bottom-36 text-white z-20">
-			<NuxtLink 
-			to=""
+			<button
 			class="cursor-pointer"
 			@click="scrollabout">
 				<div class="relative border-[3px] h-[48px] px-[12px] rounded-2xl flex justify-center items-center">
 				    <span class="hrheight"></span>
 				</div>
-			</NuxtLink>
+			</button>
 		</span>
 		<div class="bg-gray-900/10 w-full h-screen absolute bottom-0 left-0 z-[9]">
 		</div>

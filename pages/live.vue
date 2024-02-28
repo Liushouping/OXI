@@ -66,22 +66,22 @@ useHead({
 						prevEl: '.prevel'
 					}">
 						<SwiperSlide class="w-full cursor-pointer">
-							<img src="/images/lives/live_1.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_1.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 						<SwiperSlide class="w-full">
-							<img src="/images/lives/live_2.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_2.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 						<SwiperSlide class="w-full">
-							<img src="/images/lives/live_3.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_3.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 						<SwiperSlide class="w-full">
-							<img src="/images/lives/live_4.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_4.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 						<SwiperSlide class="w-full">
-							<img src="/images/lives/live_5.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_5.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 						<SwiperSlide class="w-full">
-							<img src="/images/lives/live_6.jpg" class="max-h-[100%] h-auto">
+							<img src="/images/lives/live_6.jpg" class="max-h-[100%] h-auto" alt="live">
 						</SwiperSlide>
 					</Swiper>
 				</div>
