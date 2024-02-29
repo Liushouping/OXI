@@ -8,10 +8,9 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+TC:wght@300;500;900&display=swap');
-
-:root {
+html,body {
   font-family: 'Noto Serif TC', serif;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 
@@ -19,13 +18,4 @@
   font-family: 'Anton', sans-serif;
 }
 
-/*.page-enter-active,
-.page-leave-active {
-  transition: all .4s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-}*/
 </style>

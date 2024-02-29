@@ -25,6 +25,15 @@ export default defineNuxtConfig({
         { 
           rel: 'apple-touch-icon', href: '/favicon.svg' 
         },
+        { 
+          rel: 'preconnect', href: 'https://fonts.googleapis.com' 
+        },
+        { 
+          rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true 
+        },
+        { 
+          rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+TC:wght@300;500;900&display=swap' 
+        },
         {
           rel: "stylesheet",
           href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
