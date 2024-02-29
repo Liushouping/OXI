@@ -41,8 +41,9 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
           type: "text/javascript",
+          src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
+          defer: true
         },
       ],
     },
