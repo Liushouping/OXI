@@ -1,7 +1,8 @@
 <script setup>
 useHead({
   title: 'Not Found Page | OXI Oyster & Wine Live House | Taipei',
-})
+});
+setResponseStatus(404);
 </script>
 <template>
 	<div>

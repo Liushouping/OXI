@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
+  site: {
+    url: 'https://oxi.taipei',
+    name: 'OXI Oyster & Wine Live House | Taipei',
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -53,7 +57,8 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     '@stefanobartoletti/nuxt-social-share',
     '@vueuse/nuxt',
-    'nuxt-gtag'
+    'nuxt-gtag',
+    '@nuxtjs/sitemap'
   ],
   '@bluesyoung/nuxt3-lazy-load': {
     
