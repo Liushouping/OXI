@@ -1,6 +1,12 @@
 <script setup>
 useHead({
   title: 'Menu | OXI Oyster & Wine Live House | Taipei',
+  link: [
+    {
+      rel: 'canonical', 
+      href: 'https://oxi.taipei/menu'
+    }
+  ]
 })
 
 const images = [

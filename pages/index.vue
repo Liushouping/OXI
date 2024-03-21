@@ -1,6 +1,12 @@
 <script setup>
 useHead({
   title: 'OXI Oyster & Wine Live House | Taipei',
+  link: [
+    {
+      rel: 'canonical', 
+      href: 'https://oxi.taipei'
+    }
+  ]
 })
 </script>
 <template>

@@ -20,23 +20,27 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '/images/welcome_3.webp' }
       ],
       link: [
-        {
-          rel: 'canonical', href: 'https://oxi.taipei'
+        { 
+          rel: 'icon', 
+          type: 'image/x-icon', 
+          href: '/favicon.svg' 
         },
         { 
-          rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
+          rel: 'apple-touch-icon', 
+          href: '/favicon.svg' 
         },
         { 
-          rel: 'apple-touch-icon', href: '/favicon.svg' 
+          rel: 'preconnect', 
+          href: 'https://fonts.googleapis.com' 
         },
         { 
-          rel: 'preconnect', href: 'https://fonts.googleapis.com' 
+          rel: 'preconnect', 
+          href: 'https://fonts.gstatic.com', 
+          crossorigin: true 
         },
         { 
-          rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true 
-        },
-        { 
-          rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+TC:wght@300;500;900&display=swap' 
+          rel: 'stylesheet', 
+          href: 'https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+TC:wght@300;500;900&display=swap' 
         },
         {
           rel: "stylesheet",
